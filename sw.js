@@ -1,14 +1,14 @@
 /* Dispatch service worker: app shell works offline, news is always fetched fresh when online. */
-const VERSION = 'dispatch-v1';
+const VERSION = 'dispatch-v2';
 const SHELL = [
   './',
   'index.html',
   'styles.css?v=1',
   'app.js?v=1',
   'manifest.webmanifest',
-  'icons/icon-192.png',
-  'icons/icon-512.png',
-  'icons/apple-touch-icon.png',
+  'icons/icon-192.png?v=2',
+  'icons/icon-512.png?v=2',
+  'icons/apple-touch-icon.png?v=2',
   'fonts/newsreader-latin-opsz-normal.woff2',
   'fonts/newsreader-latin-ext-opsz-normal.woff2',
   'fonts/newsreader-latin-opsz-italic.woff2',
