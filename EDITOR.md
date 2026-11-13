@@ -64,7 +64,6 @@ Shape of the edition (the publish script enforces this):
 - `stories`: **6 or 7** stories. `stories[0]` is the lead, the most important
   story of the day. At least 4 `"World"`, at least 1 `"Tech & Business"`.
 - `briefs`: 2–4 one-liners (max 30 words) that didn't need a story, each with one source
-- `quiz`: 5 questions about this edition. Vary which option (0–3) is correct.
 
 Each story (limits in brackets):
 

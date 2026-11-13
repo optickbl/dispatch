@@ -156,30 +156,8 @@ def validate(ed):
                 check_text(errors, f"briefs[{i}].source.name", src.get("name"), max_words=8)
                 check_url(errors, f"briefs[{i}].source.url", src.get("url"))
 
-    quiz = ed.get("quiz")
-    if not isinstance(quiz, list) or not (3 <= len(quiz) <= 6):
-        errors.append("quiz: need 3-6 questions")
-    else:
-        for i, q in enumerate(quiz):
-            w = f"quiz[{i}]"
-            if not isinstance(q, dict):
-                errors.append(f"{w}: must be an object")
-                continue
-            check_text(errors, f"{w}.q", q.get("q"), max_words=30, min_words=4)
-            opts = q.get("options")
-            if not isinstance(opts, list) or len(opts) != 4:
-                errors.append(f"{w}.options: need exactly 4 options")
-            else:
-                for j, o in enumerate(opts):
-                    check_text(errors, f"{w}.options[{j}]", o, max_words=14)
-                if len(set(opts)) != 4:
-                    errors.append(f"{w}.options: options must all differ")
-            a = q.get("answer")
-            if not isinstance(a, int) or not (0 <= a <= 3):
-                errors.append(f"{w}.answer: index 0-3 of the correct option")
-            check_text(errors, f"{w}.explain", q.get("explain"), max_words=40, min_words=4)
-            if q.get("story") not in ids:
-                errors.append(f"{w}.story: must be the id of a story in this edition")
+    if "quiz" in ed:
+        errors.append("quiz: remove it. Dispatch no longer has a quiz")
     return errors
 
 
@@ -239,7 +217,7 @@ def main(argv):
             print(f"  - {e}")
         return 1
     if check_only:
-        print(f"OK: {ed['date']} with {len(ed['stories'])} stories, {len(ed.get('briefs', []))} briefs, {len(ed['quiz'])} quiz questions.")
+        print(f"OK: {ed['date']} with {len(ed['stories'])} stories and {len(ed.get('briefs', []))} briefs.")
         return 0
     write_json(EDITIONS / f"{ed['date']}.json", ed)
     entries = reindex()

@@ -127,20 +127,6 @@
     return n;
   }
 
-  const quizMap = () => store.get('quiz', {});
-  function quizAnswers(date) { return (quizMap()[date] || {}).answers || []; }
-  function saveQuizAnswers(ed, answers) {
-    const m = quizMap();
-    const quiz = ed.quiz || [];
-    const entry = { answers };
-    if (quiz.length && answers.length >= quiz.length) {
-      entry.right = answers.filter((a, i) => a === quiz[i].answer).length;
-      entry.total = quiz.length;
-    }
-    m[ed.date] = entry;
-    store.set('quiz', m);
-  }
-
   /* ---------------- data ---------------- */
   async function getJSON(path) {
     const res = await fetch(path, { cache: 'no-store' });
@@ -172,23 +158,19 @@
   /* ---------------- routing ---------------- */
   // #/                      today
   // #/story/<id>            story in today's edition
-  // #/quiz                  today's quiz
   // #/archive               past editions
   // #/e/<date>              a past edition
   // #/e/<date>/story/<id>   story in a past edition
-  // #/e/<date>/quiz         quiz for a past edition
   function parse(hash) {
     const parts = hash.replace(/^#\/?/, '').split('/').filter(Boolean).map(decodeURIComponent);
     let date = null;
     if (parts[0] === 'e' && parts[1]) { date = parts[1]; parts.splice(0, 2); }
     if (parts[0] === 'story' && parts[1]) return { name: 'story', date, id: parts[1] };
-    if (parts[0] === 'quiz') return { name: 'quiz', date };
     if (parts[0] === 'archive') return { name: 'archive' };
     return { name: 'front', date };
   }
   const base = (date) => (!date || (state.latest && date === state.latest.date)) ? '#/' : `#/e/${encodeURIComponent(date)}`;
   const storyHref = (date, id) => (base(date) === '#/' ? '#/' : base(date) + '/') + 'story/' + encodeURIComponent(id);
-  const quizHref = (date) => (base(date) === '#/' ? '#/' : base(date) + '/') + 'quiz';
 
   function routeKey(r) { return JSON.stringify(r); }
 
@@ -199,7 +181,7 @@
 
   async function render() {
     const prev = state.route;
-    if (prev && (prev.name === 'front' || prev.name === 'archive' || prev.name === 'quiz')) {
+    if (prev && (prev.name === 'front' || prev.name === 'archive')) {
       state.scroll[routeKey(prev)] = window.scrollY;
     }
     const r = parse(location.hash);
@@ -229,7 +211,6 @@
 
     if (r.name === 'front') renderFront(ed, r);
     else if (r.name === 'story') renderStory(ed, r);
-    else if (r.name === 'quiz') renderQuiz(ed);
     else if (r.name === 'archive') renderArchive();
 
     const y = (r.name !== 'story' && state.scroll[routeKey(r)]) || 0;
@@ -347,20 +328,6 @@
         <ul>${ed.briefs.map((b) => `<li>${esc(b.text)}<a class="src" href="${esc(safeUrl(b.source.url))}" target="_blank" rel="noopener">${esc(b.source.name)}</a></li>`).join('')}</ul>
       </section>` : '';
 
-    const answers = quizAnswers(ed.date);
-    const qn = (ed.quiz || []).length;
-    const qDone = qn && answers.length >= qn;
-    const score = qDone ? answers.filter((a, i) => a === ed.quiz[i].answer).length : 0;
-    const promo = qn ? `
-      <a class="promo" href="${quizHref(ed.date)}">
-        <div>
-          <div class="label">Test yourself</div>
-          <h3>${qDone ? `You scored ${score} of ${qn}` : `${qn} questions on ${isToday ? "today's" : esc(weekday(ed.date) + "'s")} news`}</h3>
-          <p>${qDone ? 'Review your answers' : answers.length ? `Carry on from question ${answers.length + 1}` : 'About two minutes'}</p>
-        </div>
-        <span class="go">${icon.arrow}</span>
-      </a>` : '';
-
     const banner = isToday ? '' : `<div class="banner"><span>${esc(longDate(ed.date))}</span><a href="#/">Back to today</a></div>`;
 
     mount(`
@@ -384,7 +351,6 @@
       </div>
       ${body}
       ${briefs}
-      ${promo}
       <footer class="footer">
         <div class="orn">* * *</div>
         <p>${isToday ? 'Next edition tomorrow at 08:00, Athens time.' : 'From the archive.'}${publishedTime(ed) && isToday ? `<br>Updated today at ${esc(publishedTime(ed))}.` : ''}</p>
@@ -406,7 +372,6 @@
     const prev = ed.stories[i - 1];
     const next = ed.stories[i + 1];
     const mins = readMinutes(s);
-    const hasQuiz = (ed.quiz || []).length > 0;
 
     const para = (arr) => [].concat(arr || []).map((p) => `<p class="body">${esc(p)}</p>`).join('');
 
@@ -414,10 +379,6 @@
       <a class="next" href="${storyHref(ed.date, next.id)}" data-nav="next">
         <div class="label"><span>Next story</span><span>${i + 2} of ${ed.stories.length}</span></div>
         <h3>${esc(next.headline)}</h3>
-      </a>` : hasQuiz ? `
-      <a class="next" href="${quizHref(ed.date)}">
-        <div class="label"><span>You've reached the end</span><span>Quiz</span></div>
-        <h3>Test yourself on ${ed === state.latest ? "today's" : esc(weekday(ed.date) + "'s")} news</h3>
       </a>` : `
       <a class="next" href="${base(ed.date)}">
         <div class="label"><span>You've reached the end</span></div>
@@ -574,95 +535,6 @@
     } else doIt();
   }
 
-  function renderQuiz(ed) {
-    const quiz = ed.quiz || [];
-    const isToday = ed === state.latest;
-    const dayName = isToday ? "today's" : weekday(ed.date) + "'s";
-    const head = `
-      ${isToday ? '' : `<div class="banner"><span>${esc(longDate(ed.date))}</span><a href="#/quiz">Today's quiz</a></div>`}
-      <header class="pagehead">
-        <div class="label">Test yourself</div>
-        <h1>Daily quiz</h1>
-        <p>${quiz.length} questions on ${esc(dayName)} edition.</p>
-      </header>`;
-
-    if (!quiz.length) {
-      mount(head + `<div class="empty"><p>No quiz for this edition.</p></div>`, true);
-      return;
-    }
-
-    const answers = quizAnswers(ed.date);
-    const prog = (cur) => `<div class="qprog">${quiz.map((q, i) => {
-      const a = answers[i];
-      const cls = a == null ? (i === cur ? 'done' : '') : (a === q.answer ? 'right' : 'wrong');
-      return `<i class="${cls}"></i>`;
-    }).join('')}</div>`;
-
-    if (answers.length >= quiz.length) {
-      const score = answers.filter((a, i) => a === quiz[i].answer).length;
-      const line = score === quiz.length ? 'A perfect score. You know the news.'
-        : score >= quiz.length - 1 ? 'Sharp. Nearly all of it stuck.'
-        : score >= Math.ceil(quiz.length / 2) ? 'Solid. Reread the ones you missed.'
-        : 'Worth another read of the front page.';
-      mount(head + `
-        ${prog(-1)}
-        <div class="score">
-          <div class="big">${score}<small>/${quiz.length}</small></div>
-          <p>${esc(line)}</p>
-        </div>
-        <div class="review"><ul>${quiz.map((q, i) => {
-          const ok = answers[i] === q.answer;
-          return `<li><span class="mk ${ok ? 'r' : 'w'}">${ok ? '&#10003;' : '&#10005;'}</span><div>${esc(q.q)}<small>${esc(q.options[q.answer])}</small></div></li>`;
-        }).join('')}</ul></div>
-        <a class="btn" href="${base(ed.date)}">Back to the front page</a>
-        <button class="btn ghost" id="retake">Retake quiz</button>
-      `, true);
-      document.getElementById('retake').onclick = () => { saveQuizAnswers(ed, []); renderQuiz(ed); window.scrollTo(0, 0); };
-      return;
-    }
-
-    const qi = answers.length;
-    const q = quiz[qi];
-    mount(head + `
-      ${prog(qi)}
-      <section class="question">
-        <div class="label">Question ${qi + 1} of ${quiz.length}</div>
-        <h2>${esc(q.q)}</h2>
-        <div class="opts">${q.options.map((o, j) => `
-          <button class="opt" data-j="${j}"><span class="key">${'ABCD'[j]}</span><span>${esc(o)}</span></button>`).join('')}
-        </div>
-        <div id="after"></div>
-      </section>
-    `, qi === 0);
-
-    view.querySelectorAll('.opt').forEach((b) => {
-      b.onclick = () => {
-        const j = +b.dataset.j;
-        const ok = j === q.answer;
-        view.querySelectorAll('.opt').forEach((x) => {
-          const k = +x.dataset.j;
-          x.disabled = true;
-          if (k === q.answer) x.classList.add('right');
-          else if (k === j) x.classList.add('wrong');
-          else x.classList.add('dim');
-        });
-        const next = answers.concat(j);
-        saveQuizAnswers(ed, next);
-        const last = next.length >= quiz.length;
-        document.getElementById('after').innerHTML = `
-          <div class="explain">
-            <div class="verdict ${ok ? 'r' : 'w'}">${ok ? 'Correct.' : 'Not quite.'}</div>
-            <p>${esc(q.explain)}</p>
-            ${q.story ? `<a href="${storyHref(ed.date, q.story)}">Read the story</a>` : ''}
-          </div>
-          <button class="btn" id="nextq">${last ? 'See your score' : 'Next question'}</button>`;
-        document.getElementById('nextq').onclick = () => { renderQuiz(ed); window.scrollTo(0, 0); };
-        const bars = view.querySelectorAll('.qprog i');
-        if (bars[qi]) bars[qi].className = ok ? 'right' : 'wrong';
-      };
-    });
-  }
-
   function renderArchive() {
     const list = (state.index && state.index.editions) || (state.latest ? [{
       date: state.latest.date, summary: state.latest.summary,
@@ -670,13 +542,6 @@
     }] : []);
     const reads = readMap();
     const totalRead = Object.values(reads).reduce((a, l) => a + l.length, 0);
-    const qm = quizMap();
-    let right = 0, asked = 0;
-    Object.values(qm).forEach((q) => {
-      if (!q.total) return;
-      asked += q.total;
-      right += q.right;
-    });
     const st = streak();
 
     mount(`
@@ -688,7 +553,7 @@
       <div class="stats">
         <div><b>${st}</b><span>Day streak</span></div>
         <div><b>${totalRead}</b><span>Stories read</span></div>
-        <div><b>${asked ? Math.round((right / asked) * 100) + '%' : '–'}</b><span>Quiz score</span></div>
+        <div><b>${list.length}</b><span>${list.length === 1 ? 'Edition' : 'Editions'}</span></div>
       </div>
       ${list.map((e) => {
         const n = (reads[e.date] || []).length;

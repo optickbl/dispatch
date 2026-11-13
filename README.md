@@ -1,7 +1,6 @@
 # Dispatch
 
-A personal morning news app: the world's most important stories, explained,
-with a daily quiz. A new edition is published every morning by 08:00 Athens time.
+A personal morning news app: the world's most important stories, short and explained. A new edition is published every morning by 08:00 Athens time.
 
 **Live:** https://optickbl.github.io/dispatch/. In Safari, tap Share → Add to Home Screen.
 
