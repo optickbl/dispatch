@@ -35,49 +35,58 @@ disagree, or only one side is claiming something, say so ("Iran says…",
 
 ## 3. Write the edition
 
+**Short and to the point.** The reader wants the facts fast, not an essay.
+Each story is about 100–140 words in total. The publish script rejects any
+story over 170 words.
+
+How to write tight:
+- Lead with the fact. No warm-up ("In a significant development…").
+- One idea per bullet. Names, numbers and dates beat adjectives.
+- Don't repeat the headline in the dek, or the dek in the bullets.
+- Cut anything the reader doesn't need to understand the story.
+- Use plain British English and short sentences. Explain jargon or drop it.
+
 Write everything **in your own words**. Never copy sentences from a source.
-Don't use direct quotes unless the exact words are the news, and then keep
-them under 10 words. Use plain, clear British English. Explain things for a
-smart reader who isn't an expert: no jargon without explanation.
+Avoid direct quotes; if the exact words are the news, keep them to a few words.
 
 Stay neutral on politics. Report what each side says and does, without taking
-sides. The "say" line must be a factual summary someone could say at dinner,
-never an opinion.
+sides. Attribute claims ("Iran says…", "according to Reuters…") and say when
+something isn't confirmed. The "say" line is a factual one-liner, never an opinion.
 
 Shape of the edition (the publish script enforces this):
 
 - `date`: today, `YYYY-MM-DD`
 - `published`: now, ISO with Athens offset, e.g. `2026-11-14T07:42:00+02:00`
-- `summary`: one sentence (max ~40 words) naming the 2–3 biggest stories
+- `summary`: one sentence, max 30 words, naming the 2–3 biggest stories
 - `stories`: **7–10** stories. `stories[0]` is the lead, the most important
   story of the day. At least 5 `"World"`, at least 2 `"Tech & Business"`.
-- `briefs`: 3–5 one-line items that didn't need a full story, each with one source
+- `briefs`: 3–5 one-liners (max 30 words) that didn't need a story, each with one source
 - `quiz`: 5 questions about this edition. Vary which option (0–3) is correct.
 
-Each story:
+Each story (limits in brackets):
 
 ```json
 {
   "id": "short-hyphenated-id",
   "section": "World" | "Tech & Business",
   "region": "Middle East",
-  "headline": "Max ~14 words, active voice, says what happened",
-  "dek": "One sentence that adds the next most important fact.",
-  "what": ["1–2 short paragraphs: what happened, with who, when, numbers."],
-  "background": ["1–2 short paragraphs: the context needed to understand it."],
-  "why": "2–3 sentences: why it matters to the world and to an ordinary person.",
-  "say": "One sentence the reader could say to sound informed. Factual, no opinion.",
-  "terms": [{ "term": "Word", "def": "Plain-English definition." }],
+  "headline": "What happened, active voice [max 13 words]",
+  "dek": "The next most important fact [max 18 words]",
+  "what": ["2–3 bullets: who, what, when, numbers [max 28 words each]"],
+  "background": ["Exactly 1 item: the context needed to understand it [max 45 words]"],
+  "why": "Why it matters to the world and to an ordinary person [max 30 words]",
+  "say": "A one-liner the reader could say to sound informed [max 22 words]",
+  "terms": [{ "term": "Word", "def": "Plain definition [max 22 words]" }],
   "sources": [{ "name": "Reuters", "url": "https://..." }]
 }
 ```
 
-Rules for sources: at least 2 per story, real `https://` URLs that came from
-your searches or pages you opened. **Never invent or guess a URL.** Prefer
-original reporting (Reuters, AP, AFP, BBC, Al Jazeera, FT, Bloomberg, official
-statements) over aggregators.
+Terms: 0–2 per story, only for words a non-expert might not know.
 
-Rules for terms: 1–3 per story, only for words a non-expert might not know.
+Sources: at least 2 per story, real `https://` URLs that came from your
+searches or pages you opened. **Never invent or guess a URL.** Prefer original
+reporting (Reuters, AP, AFP, BBC, Al Jazeera, FT, Bloomberg, official
+statements) over aggregators.
 
 ## 4. Publish
 

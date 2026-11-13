@@ -310,8 +310,17 @@ button { font: inherit; color: inherit; background: none; border: 0; padding: 0;
   float: left; font-weight: 600; font-variation-settings: "opsz" 72;
   font-size: calc(var(--body-size) * 3.35); line-height: .82; margin: 6px 8px 0 -1px; color: var(--ink);
 }
+.points { list-style: none; margin: 0; padding: 0; }
+.points li {
+  position: relative; padding: 0 0 0 22px; margin: 0 0 14px;
+  font-size: var(--body-size); line-height: 1.5; text-wrap: pretty;
+}
+.points li::before {
+  content: ""; position: absolute; left: 2px; top: calc(var(--body-size) * .62);
+  width: 7px; height: 7px; background: var(--accent);
+}
 .why {
-  margin: 30px 0 0; padding: 16px 18px 17px; background: var(--paper-2);
+  margin: 24px 0 0; padding: 16px 18px 17px; background: var(--paper-2);
   border: 1px solid var(--rule); border-left: 3px solid var(--ink);
 }
 .why .label { color: var(--ink); }

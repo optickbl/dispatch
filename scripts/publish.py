@@ -72,7 +72,7 @@ def validate(ed):
     if not isinstance(ed.get("published"), str) or "T" not in ed.get("published", ""):
         errors.append("published: must be an ISO timestamp like 2026-11-14T08:00:00+02:00")
 
-    check_text(errors, "summary", ed.get("summary"), max_words=45, min_words=8)
+    check_text(errors, "summary", ed.get("summary"), max_words=30, min_words=8)
 
     stories = ed.get("stories")
     if not isinstance(stories, list) or not (6 <= len(stories) <= 14):
@@ -99,27 +99,31 @@ def validate(ed):
         else:
             counts[s["section"]] += 1
         check_text(errors, f"{w}.region", s.get("region"), max_words=4)
-        check_text(errors, f"{w}.headline", s.get("headline"), max_words=18, min_words=4)
-        check_text(errors, f"{w}.dek", s.get("dek"), max_words=30, min_words=6)
-        for key, lo, hi in (("what", 1, 4), ("background", 1, 3)):
-            paras = s.get(key)
-            if not isinstance(paras, list) or not (lo <= len(paras) <= hi):
-                errors.append(f"{w}.{key}: need {lo}-{hi} paragraphs")
+        check_text(errors, f"{w}.headline", s.get("headline"), max_words=13, min_words=4)
+        check_text(errors, f"{w}.dek", s.get("dek"), max_words=18, min_words=5)
+        for key, lo, hi, maxw in (("what", 2, 3, 28), ("background", 1, 1, 45)):
+            items = s.get(key)
+            if not isinstance(items, list) or not (lo <= len(items) <= hi):
+                errors.append(f"{w}.{key}: need {lo}-{hi} item(s)" if lo != hi else f"{w}.{key}: need exactly {lo} item")
                 continue
-            for j, p in enumerate(paras):
-                check_text(errors, f"{w}.{key}[{j}]", p, max_words=110, min_words=8)
-        check_text(errors, f"{w}.why", s.get("why"), max_words=60, min_words=8)
-        check_text(errors, f"{w}.say", s.get("say"), max_words=40, min_words=6)
+            for j, p in enumerate(items):
+                check_text(errors, f"{w}.{key}[{j}]", p, max_words=maxw, min_words=6)
+        check_text(errors, f"{w}.why", s.get("why"), max_words=30, min_words=6)
+        check_text(errors, f"{w}.say", s.get("say"), max_words=22, min_words=5)
+        body = [s.get("dek"), s.get("why"), s.get("say")] + list(s.get("what") or []) + list(s.get("background") or [])
+        total = sum(words(x) for x in body if isinstance(x, str))
+        if total > 170:
+            errors.append(f"{w}: story is {total} words; keep it under 170 (cut filler, not facts)")
         terms = s.get("terms", [])
-        if not isinstance(terms, list) or len(terms) > 4:
-            errors.append(f"{w}.terms: list of at most 4")
+        if not isinstance(terms, list) or len(terms) > 2:
+            errors.append(f"{w}.terms: list of at most 2")
         else:
             for j, t in enumerate(terms):
                 if not isinstance(t, dict):
                     errors.append(f"{w}.terms[{j}]: must be an object")
                     continue
                 check_text(errors, f"{w}.terms[{j}].term", t.get("term"), max_words=5)
-                check_text(errors, f"{w}.terms[{j}].def", t.get("def"), max_words=40, min_words=4)
+                check_text(errors, f"{w}.terms[{j}].def", t.get("def"), max_words=22, min_words=4)
         srcs = s.get("sources")
         if not isinstance(srcs, list) or len(srcs) < 2:
             errors.append(f"{w}.sources: need at least 2 sources")
@@ -144,7 +148,7 @@ def validate(ed):
             if not isinstance(b, dict):
                 errors.append(f"briefs[{i}]: must be an object")
                 continue
-            check_text(errors, f"briefs[{i}].text", b.get("text"), max_words=45, min_words=5)
+            check_text(errors, f"briefs[{i}].text", b.get("text"), max_words=30, min_words=5)
             src = b.get("source")
             if not isinstance(src, dict):
                 errors.append(f"briefs[{i}].source: must be an object with name and url")

@@ -71,7 +71,7 @@
 
   const wordCount = (s) => String(s || '').trim().split(/\s+/).filter(Boolean).length;
   function readMinutes(story) {
-    const text = [story.dek, ...(story.what || []), ...(story.background || []), story.why, story.say,
+    const text = [story.dek, ...[].concat(story.what || []), ...[].concat(story.background || []), story.why, story.say,
       ...(story.terms || []).map((t) => t.term + ' ' + t.def)].join(' ');
     return Math.max(1, Math.ceil(wordCount(text) / 200));
   }
@@ -408,8 +408,7 @@
     const mins = readMinutes(s);
     const hasQuiz = (ed.quiz || []).length > 0;
 
-    const para = (arr, first) => (arr || []).map((p, j) =>
-      `<p class="body${first && j === 0 ? ' dropcap' : ''}">${esc(p)}</p>`).join('');
+    const para = (arr) => [].concat(arr || []).map((p) => `<p class="body">${esc(p)}</p>`).join('');
 
     const nextCard = next ? `
       <a class="next" href="${storyHref(ed.date, next.id)}" data-nav="next">
@@ -442,9 +441,9 @@
         <div class="byline meta">${esc(shortDate(ed.date))}<span class="dot"></span>${mins} min read<span class="dot"></span>${(s.sources || []).length} sources</div>
 
         <h2 class="sub">What happened</h2>
-        ${para(s.what, true)}
+        <ul class="points">${(s.what || []).map((p) => `<li>${esc(p)}</li>`).join('')}</ul>
 
-        <h2 class="sub">The background</h2>
+        <h2 class="sub">Context</h2>
         ${para(s.background)}
 
         <div class="why" id="why">

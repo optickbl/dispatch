@@ -1,36 +1,32 @@
 {
   "date": "2026-11-13",
   "published": "2026-11-13T15:30:00+02:00",
-  "summary": "Tankers burn in the Strait of Hormuz as Trump threatens Iran again, Nvidia loses the founder who built it, and Netanyahu's rival gets the first shot at governing Israel.",
+  "summary": "Tankers burn in Hormuz as Trump threatens Iran, Nvidia's founder quits, and Netanyahu's rival gets the first shot at governing Israel.",
   "stories": [
     {
       "id": "hormuz-tankers",
       "section": "World",
       "region": "Middle East",
-      "headline": "Two supertankers burn in Hormuz as Trump says he could strike Iran again",
-      "dek": "Iran says the ships ignored its warnings. Washington says it no longer needs a deal with Tehran.",
+      "headline": "Tankers burn in Hormuz as Trump threatens new strikes on Iran",
+      "dek": "Iran says the ships ignored its warnings. Trump says he no longer needs a deal.",
       "what": [
-        "Iran's Revolutionary Guard says two supertankers carrying more than 4 million barrels of oil between them were disabled by explosions late on Wednesday. They were using a southern route through the Strait of Hormuz that Iran calls unauthorised. Iran's regular army separately said tankers caught fire after hitting naval mines east of the strait. The ships and their flags have not been named, and there is no independent confirmation yet.",
-        "On Thursday, President Trump wrote that the US no longer needs a deal with Iran. He then told an interviewer he would order new strikes without hesitation if things moved the wrong way, possibly right away. Israeli media report that US Central Command has told Israel's military to prepare for possible renewed action."
+        "Iran says two supertankers carrying over 4 million barrels of oil were disabled by explosions on a Hormuz route it calls unauthorised.",
+        "Trump said the US no longer needs a deal with Iran and he would strike again \"without hesitation\", possibly right away.",
+        "Israeli media say the US military has told Israel to prepare for renewed action."
       ],
       "background": [
-        "The US and Israel attacked Iran on 28 February. A ceasefire followed in April and the two sides signed a memorandum of understanding in June, but talks stalled and clashes resumed.",
-        "Since then the fight has centred on the strait. Iran uses its control of the waterway as leverage. The US has imposed a naval blockade on Iranian ports and is helping tankers get through on routes Iran says are off-limits."
+        "The US and Israel attacked Iran on 28 February. An April ceasefire didn't hold, and the fight moved to the Strait of Hormuz, where the US now blockades Iranian ports."
       ],
-      "why": "About a fifth of the world's oil normally passes through Hormuz. Every attack there pushes up oil and shipping costs, which feed into fuel and food prices around the world, Europe included.",
-      "say": "The Iran war never really ended. It moved to the Strait of Hormuz, and now both sides are threatening to escalate again.",
+      "why": "About a fifth of the world's oil passes through Hormuz. Trouble there pushes up fuel and food prices everywhere.",
+      "say": "The Iran war never really ended. It just moved to the Strait of Hormuz.",
       "terms": [
         {
           "term": "Strait of Hormuz",
-          "def": "The narrow channel between Iran and Oman that links the Gulf to the open ocean. It is the world's most important oil chokepoint."
+          "def": "The narrow sea passage between Iran and Oman. It is the world's key oil chokepoint."
         },
         {
           "term": "IRGC",
-          "def": "Iran's Revolutionary Guard, an elite military force separate from the regular army that answers to the Supreme Leader."
-        },
-        {
-          "term": "Naval blockade",
-          "def": "Using warships to stop ships from entering or leaving a country's ports."
+          "def": "Iran's Revolutionary Guard, an elite force separate from the regular army."
         }
       ],
       "sources": [
@@ -60,26 +56,22 @@
       "id": "nvidia-huang",
       "section": "Tech & Business",
       "region": "United States",
-      "headline": "Jensen Huang resigns as Nvidia's CEO after 33 years",
-      "dek": "Finance chief Colette Kress takes over for now, after a scandal involving a suspected Chinese spy.",
+      "headline": "Jensen Huang quits as Nvidia CEO after 33 years",
+      "dek": "Finance chief Colette Kress takes over for now, after a spy scandal.",
       "what": [
-        "Nvidia said in a regulatory filing that Jensen Huang has resigned. He co-founded the company in 1993 and has run it ever since. Chief financial officer Colette Kress becomes interim CEO and keeps her finance job. The board named Harvey Jones its first-ever chair while it searches for a permanent successor.",
-        "Huang's exit follows a board investigation into his affair with a Chinese businesswoman whom US intelligence officials reportedly suspect of spying for Beijing. Investigators are also reported to be looking at whether a company linked to her helped smuggle restricted US chips into China. Nvidia says it has no reason to believe company secrets or national security were compromised."
+        "Huang, who co-founded Nvidia in 1993, has resigned. CFO Colette Kress is interim CEO while the board looks for a permanent one.",
+        "It follows a board probe into his affair with a Chinese businesswoman whom US officials reportedly suspect of spying for Beijing.",
+        "Nvidia says it has no reason to think company secrets or national security were compromised."
       ],
       "background": [
-        "Nvidia makes the chips that power most of the world's AI systems, and that has made it a company worth more than $4 trillion. Huang kept decision-making concentrated in his own hands and never named a successor, so analysts have long described him as the company's single biggest risk.",
-        "The US restricts sales of its most advanced AI chips to China, which is why any link to Beijing is so sensitive."
+        "Nvidia makes the chips behind most of the world's AI and is worth over $4 trillion. The US bans sales of its best chips to China."
       ],
-      "why": "Nvidia sits at the centre of both the AI boom and the US–China tech rivalry. Who runs it, and whether its chips are leaking to China, matters for markets, for AI and for national security.",
-      "say": "Nvidia just lost the founder who turned it into the engine of the AI boom, and the reason is a national-security scandal, not the business.",
+      "why": "Nvidia is at the centre of the AI boom and the US–China tech fight. Losing its founder like this shakes both.",
+      "say": "Nvidia lost the founder who built it into the engine of AI, over a national-security scandal.",
       "terms": [
         {
           "term": "Interim CEO",
           "def": "A temporary boss who runs a company until a permanent one is chosen."
-        },
-        {
-          "term": "Export controls",
-          "def": "Government rules that limit which technology can be sold abroad. The US bars sales of its most advanced AI chips to China."
         }
       ],
       "sources": [
@@ -101,26 +93,22 @@
       "id": "israel-eisenkot",
       "section": "World",
       "region": "Middle East",
-      "headline": "Netanyahu's rival Eisenkot gets the first shot at forming Israel's government",
-      "dek": "The former army chief has 28 days to build a majority after an election that left neither camp able to govern alone.",
+      "headline": "Netanyahu's rival Eisenkot gets first shot at forming Israel's government",
+      "dek": "The former army chief has 28 days to build a working majority.",
       "what": [
-        "President Isaac Herzog gave Gadi Eisenkot, who leads the centrist Yashar party, the mandate to form a government on 8 November, passing over Prime Minister Benjamin Netanyahu. 67 of the Knesset's 120 members recommended Eisenkot. That count includes Arab-led parties that some of his likely partners refuse to rely on, so his own bloc lacks a clear majority.",
-        "He has 28 days, plus a possible 14-day extension. If he fails, the mandate goes to Netanyahu, who would get 28 days with no extension."
+        "President Herzog gave the mandate to Gadi Eisenkot, leader of the centrist Yashar party, passing over Prime Minister Netanyahu.",
+        "67 of 120 lawmakers backed him, but that includes Arab-led parties some of his partners won't rely on.",
+        "He has 28 days, plus a possible 14. If he fails, Netanyahu gets a turn."
       ],
       "background": [
-        "Israel voted on 27 October. No party has ever won a majority alone, so every government is a coalition. After an election the president consults all the parties and gives the mandate to whoever looks most likely to put together 61 of the 120 seats.",
-        "Netanyahu is Israel's longest-serving prime minister and has led a religious-nationalist coalition. Eisenkot is a former chief of staff of the army."
+        "Israel voted on 27 October. No party ever wins alone, so governments are coalitions that need 61 of the Knesset's 120 seats."
       ],
-      "why": "This could end the Netanyahu era. The next government will set Israel's course on Gaza, Iran and its relationship with the US.",
-      "say": "Netanyahu is on the outside for now. Eisenkot has the mandate, but he still has to turn 67 recommendations into 61 reliable votes.",
+      "why": "This could end the Netanyahu era. The next government will set Israel's course on Gaza and Iran.",
+      "say": "Eisenkot has the mandate, but he still needs 61 reliable votes to replace Netanyahu.",
       "terms": [
         {
           "term": "Knesset",
           "def": "Israel's parliament, which has 120 seats."
-        },
-        {
-          "term": "Mandate",
-          "def": "The president's formal request to a party leader to try to form a government."
         }
       ],
       "sources": [
@@ -147,25 +135,20 @@
       "section": "World",
       "region": "Asia",
       "headline": "G7 warns China over its pressure east of Taiwan",
-      "dek": "The big democracies say Beijing's patrols threaten shipping. Taipei fears they are rehearsals for a blockade.",
+      "dek": "Taipei fears Beijing's coast-guard patrols are rehearsals for a blockade.",
       "what": [
-        "After meeting in Paris this week, foreign ministers of the G7 (the US, UK, France, Germany, Italy, Japan and Canada) said China's increasingly assertive activity in the waters east of Taiwan threatens regional stability, freedom of navigation and the safety of shipping.",
-        "It is the group's strongest joint statement on the issue so far. Until now only some members had raised it. Beijing rejected the criticism as interference in its internal affairs."
+        "G7 foreign ministers, meeting in Paris, said China's activity east of Taiwan threatens regional stability and international shipping.",
+        "It is their strongest joint statement on it yet. Beijing called it interference in its internal affairs."
       ],
       "background": [
-        "China claims Taiwan as its territory and has never ruled out using force to take it. Taiwan's government rejects that claim.",
-        "Since June, China's coast guard has been patrolling regularly off Taiwan's east coast. That is the side facing the Pacific, which Taipei counts on for supplies from allies in a crisis. Taiwanese officials believe China is practising a maritime blockade that would use military, coast-guard and civilian ships together."
+        "China claims Taiwan and hasn't ruled out force. Since June its coast guard has patrolled Taiwan's Pacific coast, the side Taipei relies on for supplies in a crisis."
       ],
-      "why": "Taiwan makes most of the world's most advanced chips. A blockade could cut it off without a shot being fired, and the damage would reach phones, cars and AI everywhere.",
-      "say": "The worry over Taiwan has shifted from invasion to blockade, and China's patrols on the east coast look like practice for one.",
+      "why": "Taiwan makes most of the world's advanced chips. A blockade could cut it off without a shot being fired.",
+      "say": "The fear over Taiwan has shifted from invasion to blockade.",
       "terms": [
         {
           "term": "G7",
-          "def": "A club of seven large democratic economies (the US, UK, France, Germany, Italy, Japan and Canada) that coordinate policy. The EU also takes part."
-        },
-        {
-          "term": "Freedom of navigation",
-          "def": "The principle that ships of every country may sail through international waters without interference."
+          "def": "Seven big democratic economies: the US, UK, France, Germany, Italy, Japan and Canada."
         }
       ],
       "sources": [
@@ -187,26 +170,21 @@
       "id": "ukraine-abu-dhabi",
       "section": "World",
       "region": "Europe",
-      "headline": "Russia and Ukraine hold their first US-brokered talks in nine months",
-      "dek": "Two days of meetings in Abu Dhabi covered ending the war and post-war security, while the strikes went on.",
+      "headline": "Russia and Ukraine hold first US-brokered talks in nine months",
+      "dek": "The Abu Dhabi talks were called productive, but the strikes go on.",
       "what": [
-        "Delegations from Kyiv and Moscow met in Abu Dhabi on 10 and 11 November, with Trump's envoys Steve Witkoff and Jared Kushner mediating. The agenda covered ending the war, security arrangements for afterwards, de-escalation and humanitarian steps.",
-        "US Secretary of State Marco Rubio called the talks very productive but said a lot of work remained. Russia objects to European involvement, although it says the EU could join at a later stage."
+        "Delegations met in Abu Dhabi on 10–11 November, with Trump envoys Steve Witkoff and Jared Kushner mediating.",
+        "US Secretary of State Rubio called the talks very productive but said much work remains. Russia objects to Europe taking part."
       ],
       "background": [
-        "Russia's full-scale invasion began in February 2022. The last US-mediated round took place in February this year, before the US–Israeli war with Iran pulled Washington's attention away.",
-        "The front lines are largely deadlocked, and both sides keep up long-range strikes. Russia fired 162 drones and a ballistic missile at Ukraine the night before the talks opened."
+        "Russia invaded in February 2022. The front is largely stuck and both sides keep up long-range strikes. Russia fired 162 drones the night before talks began."
       ],
-      "why": "This is the first real diplomatic movement in months. Any deal would redraw Europe's security map, but both sides are still holding to their core demands, especially on territory.",
-      "say": "Russia and Ukraine are talking again for the first time since February, but neither side has moved on the big question of territory.",
+      "why": "It's the first real diplomacy in months, but territory is still the sticking point.",
+      "say": "Russia and Ukraine are talking again, but neither side has moved on territory.",
       "terms": [
         {
           "term": "Security guarantees",
-          "def": "Promises from other countries to defend Ukraine, or help it, if Russia attacks again after a deal."
-        },
-        {
-          "term": "Trilateral talks",
-          "def": "Negotiations between three parties. Here: Russia, Ukraine and the US as mediator."
+          "def": "Promises from other countries to help defend Ukraine if Russia attacks again after a deal."
         }
       ],
       "sources": [
@@ -228,26 +206,21 @@
       "id": "us-senate-leader",
       "section": "World",
       "region": "United States",
-      "headline": "After winning the Senate, Democrats fight over who should lead it",
-      "dek": "Chris Van Hollen is moving toward a challenge to Chuck Schumer, the party's Senate leader for nearly a decade.",
+      "headline": "Democrats win the Senate, then fight over who leads it",
+      "dek": "Chris Van Hollen is moving to challenge Chuck Schumer.",
       "what": [
-        "Democrats' sweeping wins in the 3 November midterms give them control of the Senate from January, which would make Chuck Schumer majority leader again. But several senators and senators-elect won't commit to backing him.",
-        "Maryland's Chris Van Hollen, a favourite of progressives, first said he was focused on a possible 2028 presidential run, then reopened the door. NPR reported on Friday that he now says he will challenge Schumer. Michigan's Elissa Slotkin has also said she is weighing a run."
+        "The 3 November midterms gave Democrats control of the Senate from January, which would make Schumer majority leader again.",
+        "Several Democrats won't back him. NPR reports Maryland's Chris Van Hollen now says he'll challenge him, and Elissa Slotkin is weighing a run."
       ],
       "background": [
-        "Each party's senators choose their leader by a simple majority in a closed vote, usually held a few weeks after an election. This one is expected next month.",
-        "The majority leader decides which bills reach the Senate floor and when, which makes it one of the most powerful jobs in Washington."
+        "Each party's senators pick their leader in a closed majority vote, expected next month. The majority leader controls which bills get a vote."
       ],
-      "why": "Whoever wins will steer how Democrats use their new majority against President Trump: investigations, the Iran war and cost-of-living bills.",
-      "say": "Democrats won the Senate and immediately started fighting over whether Schumer is still the right person to run it.",
+      "why": "The winner decides how Democrats use their majority against Trump, from investigations to the Iran war.",
+      "say": "Democrats won the Senate and immediately started fighting over whether Schumer should lead it.",
       "terms": [
         {
           "term": "Midterms",
-          "def": "US elections held halfway through a president's four-year term, covering all House seats and about a third of the Senate."
-        },
-        {
-          "term": "Caucus",
-          "def": "All of a party's members in a chamber, acting as a group."
+          "def": "US elections held halfway through a president's term."
         }
       ],
       "sources": [
@@ -273,30 +246,21 @@
       "id": "us-inflation",
       "section": "Tech & Business",
       "region": "United States",
-      "headline": "US prices rise faster than expected, and the Fed may raise rates again",
-      "dek": "Consumer prices climbed 0.4% in October, in the last big inflation reading before the Fed's December meeting.",
+      "headline": "US inflation runs hot, and a Fed rate hike looks likely",
+      "dek": "Prices rose 0.4% in October, the last big reading before the Fed meets.",
       "what": [
-        "US consumer prices rose 0.4% in October from September, more than the 0.3% economists expected. Core inflation, which leaves out food and energy, rose 0.3% for the third month running, against forecasts of 0.2%. Food, services and shelter did most of the pushing.",
-        "Unusually, there is no year-on-year figure. Last year's government shutdown meant October 2025 prices were never collected. The last annual reading, for September, was 3.7%."
+        "Consumer prices rose 0.4% in October, above the 0.3% expected. Core prices, without food and energy, rose 0.3%.",
+        "There's no annual figure: last year's shutdown meant October 2025 prices were never collected. September's annual rate was 3.7%."
       ],
       "background": [
-        "The Federal Reserve aims for 2% inflation. With prices running well above that, markets now expect it to raise interest rates at its 8–9 December meeting rather than cut them.",
-        "Higher rates make borrowing more expensive for everyone from home buyers to companies, which is how the Fed tries to cool spending and slow price rises."
+        "The Fed targets 2% inflation. With prices well above that, markets expect a rate hike at its 8–9 December meeting, not a cut."
       ],
-      "why": "US interest rates move the dollar and markets worldwide. When the Fed raises rates, borrowing gets dearer and stock markets often wobble, well beyond the US.",
-      "say": "US inflation is still running well above target, so the Fed is now expected to raise rates in December, not cut them.",
+      "why": "Higher US rates make borrowing more expensive and ripple through markets worldwide.",
+      "say": "US inflation is stuck well above target, so the Fed is expected to raise rates, not cut them.",
       "terms": [
         {
-          "term": "CPI",
-          "def": "The Consumer Price Index, which tracks the price of a typical basket of goods and services. It is the main measure of inflation."
-        },
-        {
           "term": "Core inflation",
-          "def": "Inflation without food and energy, whose prices swing a lot. It shows the underlying trend better."
-        },
-        {
-          "term": "Rate hike",
-          "def": "When a central bank raises its main interest rate to slow inflation."
+          "def": "Price rises without food and energy, which swing a lot. It shows the underlying trend."
         }
       ],
       "sources": [
@@ -318,28 +282,19 @@
       "id": "cop31-antalya",
       "section": "World",
       "region": "Europe & Middle East",
-      "headline": "COP31 climate summit hits halfway in Antalya, without the US",
-      "dek": "Leaders spoke this week. The hard bargaining over money and fossil fuels runs until 20 November.",
+      "headline": "COP31 climate talks hit halfway in Antalya, without the US",
+      "dek": "Leaders have spoken. The fight over money runs until 20 November.",
       "what": [
-        "World leaders addressed the UN climate conference in Antalya, Turkey, on 11 and 12 November. About 190 countries are taking part in the two-week talks, which end on 20 November.",
-        "Turkey holds the presidency while Australia's climate minister, Chris Bowen, runs the negotiations. It is the first time the role has been split between two countries. The hosts want countries to sign up to a goal of electrifying more than a third of the global economy by 2035, up from about a fifth today, and to an 'Antalya Pledge' on AI's energy use."
+        "About 190 countries are meeting in Antalya, Turkey. Turkey hosts while Australia runs the negotiations.",
+        "The hosts want a pledge to electrify over a third of the global economy by 2035.",
+        "The US sent no officials after Trump took it out of the Paris Agreement."
       ],
       "background": [
-        "A COP is the yearly meeting of the countries that signed the UN climate treaty. The 2015 Paris Agreement aims to keep warming well below 2°C, and ideally to 1.5°C.",
-        "President Trump took the US out of the Paris Agreement and sent no officials, although a group from Congress is attending. Money is the main fight: poorer countries want more climate finance, and the EU has warned there is little appetite for new pledges."
+        "COPs are the yearly UN climate summits. Poorer countries want more money to cope with climate change, and the EU says there's little appetite for new pledges."
       ],
-      "why": "The world is not on track for the 1.5°C goal. What gets agreed here shapes energy policy, and with it energy prices and jobs, for years.",
-      "say": "COP31 is happening without the US at the table, so the real test is whether Europe, China and the big emerging economies keep pushing on their own.",
-      "terms": [
-        {
-          "term": "COP",
-          "def": "Conference of the Parties: the annual UN climate summit. COP31 is the 31st."
-        },
-        {
-          "term": "Climate finance",
-          "def": "Money from richer countries to help poorer ones cut emissions and adapt to climate damage."
-        }
-      ],
+      "why": "The world is off track for the 1.5°C goal, and these deals shape energy prices for years.",
+      "say": "COP31 is going ahead without the US, so it's up to Europe, China and emerging economies.",
+      "terms": [],
       "sources": [
         {
           "name": "Khaleej Times (AFP)",
@@ -363,27 +318,18 @@
       "id": "spacex-dragon",
       "section": "Tech & Business",
       "region": "Space",
-      "headline": "America's astronaut taxi is heading for retirement",
-      "dek": "SpaceX plans to phase out Crew Dragon and Falcon 9 around 2030 to focus on Starship, leaving NASA leaning on Boeing.",
+      "headline": "SpaceX plans to retire Crew Dragon, America's astronaut taxi",
+      "dek": "It's betting on Starship, leaving NASA leaning on Boeing.",
       "what": [
-        "NASA chief Jared Isaacman has confirmed that SpaceX intends to wind down Falcon 9 and Crew Dragon as it puts its effort into Starship, its giant next-generation rocket. SpaceX will keep flying to the International Space Station until the station retires around 2030. It has told NASA it has no current plans to fly people to low Earth orbit on Starship.",
-        "That leaves Boeing's Starliner as NASA's backup. Its only crewed flight, in 2024, ended with its two astronauts coming home on a SpaceX capsule. NASA is paying Boeing $359 million to get it back on track, with an uncrewed test flight around the turn of the year and a crewed one in 2028."
+        "SpaceX will wind down Falcon 9 and Crew Dragon around 2030, when the space station retires, NASA's chief has confirmed.",
+        "NASA is paying Boeing $359 million to revive Starliner, whose only crewed flight ended with its astronauts coming home on a SpaceX capsule."
       ],
       "background": [
-        "Since 2020, Crew Dragon has been the workhorse that carries NASA's astronauts to the space station. SpaceX president Gwynne Shotwell argues the company has to make its own products obsolete before a competitor does."
+        "Since 2020, Crew Dragon has been the main way NASA gets astronauts to the space station."
       ],
-      "why": "It shows how much of the West's access to space now depends on the business decisions of a single company.",
-      "say": "SpaceX is retiring the capsule that made it NASA's taxi so it can bet everything on Starship, and NASA's plan B is Boeing.",
-      "terms": [
-        {
-          "term": "Low Earth orbit",
-          "def": "The zone up to about 2,000 km above Earth, where the space station and most satellites fly."
-        },
-        {
-          "term": "Starship",
-          "def": "SpaceX's fully reusable super-heavy rocket, the largest ever built."
-        }
-      ],
+      "why": "The West's access to space increasingly depends on one company's business choices.",
+      "say": "SpaceX is retiring NASA's taxi to bet on Starship, and NASA's plan B is Boeing.",
+      "terms": [],
       "sources": [
         {
           "name": "Space Launch Schedule",
@@ -402,14 +348,14 @@
   ],
   "briefs": [
     {
-      "text": "President Trump warned Mexico over a migrant caravan heading north. Mexican President Claudia Sheinbaum says her authorities are working to send the migrants home.",
+      "text": "Trump warned Mexico over a migrant caravan heading north. Mexico's President Sheinbaum says migrants are being sent home.",
       "source": {
         "name": "WORLD",
         "url": "https://wng.org/podcasts/friday-morning-news-november-13-2026-1794509912"
       }
     },
     {
-      "text": "Brazil's Lula, fresh from re-election, is among the leaders addressing COP31. Climate activists hailed his win.",
+      "text": "Brazil's Lula, fresh from re-election, is among the leaders speaking at COP31.",
       "source": {
         "name": "Khaleej Times (AFP)",
         "url": "https://www.khaleejtimes.com/world/cop31-opens-leaders-pressure-tackle-climate-crisis?amp=1"

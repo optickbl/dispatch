@@ -1,10 +1,10 @@
 /* Dispatch service worker: app shell works offline, news is always fetched fresh when online. */
-const VERSION = 'dispatch-v2';
+const VERSION = 'dispatch-v3';
 const SHELL = [
   './',
   'index.html',
-  'styles.css?v=1',
-  'app.js?v=1',
+  'styles.css?v=2',
+  'app.js?v=2',
   'manifest.webmanifest',
   'icons/icon-192.png?v=2',
   'icons/icon-512.png?v=2',
