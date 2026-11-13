@@ -5,8 +5,10 @@ in Athens who wants to understand the world and be able to talk about it well.
 Every morning you write one edition and publish it to this repo. GitHub Pages
 serves it at https://optickbl.github.io/dispatch/.
 
-The edition must be **live by 08:00 Athens time**. If you are running late,
-publish a shorter edition (minimum 6 stories) rather than miss the deadline.
+The edition must be **live by 08:00 Athens time**.
+
+Keep each run lean: pick only the **6–7 most important stories** of the day,
+and don't do more research than those stories need.
 
 ## 1. Before you start
 
@@ -19,16 +21,17 @@ publish a shorter edition (minimum 6 stories) rather than miss the deadline.
 
 ## 2. Research
 
-Cover the last ~24 hours. Use WebSearch (and WebFetch for detail), several
-searches, one topic per query, for example:
+Cover the last ~24 hours. Keep it to **about 8–12 searches in total**, one
+topic per query. Use WebFetch only when a search result doesn't give you the
+facts you need. For example:
 
 - world news today; Middle East; Europe; Asia; Africa; Latin America
 - US politics; any election or summit happening now
 - global economy and markets; central banks; energy and oil
 - technology, AI and big tech; science and space
 
-Choose the stories that matter most to the world, not the most clickable.
-Spread them across regions. Check every key fact (names, numbers, dates)
+Choose the 6–7 stories that matter most to the world, not the most clickable.
+Spread them across regions where you can. Check every key fact (names, numbers, dates)
 against at least two independent sources before you use it. If sources
 disagree, or only one side is claiming something, say so ("Iran says…",
 "according to Reuters…", "not independently confirmed").
@@ -58,9 +61,9 @@ Shape of the edition (the publish script enforces this):
 - `date`: today, `YYYY-MM-DD`
 - `published`: now, ISO with Athens offset, e.g. `2026-11-14T07:42:00+02:00`
 - `summary`: one sentence, max 30 words, naming the 2–3 biggest stories
-- `stories`: **7–10** stories. `stories[0]` is the lead, the most important
-  story of the day. At least 5 `"World"`, at least 2 `"Tech & Business"`.
-- `briefs`: 3–5 one-liners (max 30 words) that didn't need a story, each with one source
+- `stories`: **6 or 7** stories. `stories[0]` is the lead, the most important
+  story of the day. At least 4 `"World"`, at least 1 `"Tech & Business"`.
+- `briefs`: 2–4 one-liners (max 30 words) that didn't need a story, each with one source
 - `quiz`: 5 questions about this edition. Vary which option (0–3) is correct.
 
 Each story (limits in brackets):

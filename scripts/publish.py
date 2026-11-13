@@ -75,8 +75,8 @@ def validate(ed):
     check_text(errors, "summary", ed.get("summary"), max_words=30, min_words=8)
 
     stories = ed.get("stories")
-    if not isinstance(stories, list) or not (6 <= len(stories) <= 14):
-        errors.append("stories: need between 6 and 14 stories")
+    if not isinstance(stories, list) or not (6 <= len(stories) <= 7):
+        errors.append("stories: need 6 or 7 stories")
         stories = stories if isinstance(stories, list) else []
 
     ids = set()
@@ -137,12 +137,12 @@ def validate(ed):
 
     if stories and counts["World"] < 4:
         errors.append("stories: need at least 4 World stories")
-    if stories and counts["Tech & Business"] < 2:
-        errors.append("stories: need at least 2 Tech & Business stories")
+    if stories and counts["Tech & Business"] < 1:
+        errors.append("stories: need at least 1 Tech & Business story")
 
     briefs = ed.get("briefs", [])
-    if not isinstance(briefs, list) or len(briefs) > 6:
-        errors.append("briefs: list of at most 6")
+    if not isinstance(briefs, list) or len(briefs) > 4:
+        errors.append("briefs: list of at most 4")
     else:
         for i, b in enumerate(briefs):
             if not isinstance(b, dict):
