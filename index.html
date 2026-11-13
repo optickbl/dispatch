@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Dispatch</title>
+  <meta name="description" content="A morning briefing on the world, explained.">
+  <meta name="theme-color" content="#F5F0E6">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="Dispatch">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <link rel="preload" href="fonts/newsreader-latin-opsz-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/inter-latin-standard-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="styles.css?v=1">
+</head>
+<body>
+  <div id="app" class="app" aria-live="polite">
+    <main id="view" class="view"></main>
+  </div>
+
+  <nav class="tabbar" id="tabbar" aria-label="Sections">
+    <a href="#/" class="tab" data-tab="today">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5.5h13.5v13A1.5 1.5 0 0 0 19 20H5.5A1.5 1.5 0 0 1 4 18.5z"/><path d="M17.5 9H20v9.5a1.5 1.5 0 0 1-3 0"/><path d="M7 9h7M7 12.5h7M7 16h4"/></svg>
+      <span>Today</span>
+    </a>
+    <a href="#/quiz" class="tab" data-tab="quiz">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="M9.6 9.6a2.5 2.5 0 1 1 3.4 2.3c-.6.3-1 .8-1 1.5v.4"/><path d="M12 16.6v.1"/></svg>
+      <span>Quiz</span>
+    </a>
+    <a href="#/archive" class="tab" data-tab="archive">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="4.5" width="17" height="4" rx="1"/><path d="M5 8.5v10A1.5 1.5 0 0 0 6.5 20h11a1.5 1.5 0 0 0 1.5-1.5v-10"/><path d="M10 12.5h4"/></svg>
+      <span>Archive</span>
+    </a>
+  </nav>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <noscript><p class="noscript">Dispatch needs JavaScript to load the news.</p></noscript>
+  <script src="app.js?v=1" defer></script>
+</body>
+</html>
