@@ -1,6 +1,12 @@
 {
   "editions": [
     {
+      "date": "2026-11-14",
+      "summary": "A first-ever Trump–Xi–Putin summit is planned for next week, Iran claims a strike on a US radar in Bahrain, and Russia and Ukraine agree a prisoner swap.",
+      "stories": 6,
+      "lead": "White House says Trump, Xi and Putin plan first three-way summit"
+    },
+    {
       "date": "2026-11-13",
       "summary": "Tankers burn in Hormuz as Trump threatens Iran, Nvidia's founder quits, and Netanyahu's rival gets the first shot at governing Israel.",
       "stories": 9,

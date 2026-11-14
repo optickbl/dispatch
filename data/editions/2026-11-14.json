@@ -1,0 +1,264 @@
+{
+  "date": "2026-11-14",
+  "published": "2026-11-14T07:40:00+02:00",
+  "summary": "A first-ever Trump–Xi–Putin summit is planned for next week, Iran claims a strike on a US radar in Bahrain, and Russia and Ukraine agree a prisoner swap.",
+  "stories": [
+    {
+      "id": "trump-xi-putin-summit",
+      "section": "World",
+      "region": "Asia",
+      "headline": "White House says Trump, Xi and Putin plan first three-way summit",
+      "dek": "It is planned for the APEC summit in China on 18–19 November, a US official says.",
+      "what": [
+        "A senior US official said the talks will cover nuclear non-proliferation and the Iran war, not Ukraine. No new agreements are expected.",
+        "The Kremlin said earlier this month it was working to arrange it. Beijing has said only that it is in communication with the parties.",
+        "Kyiv says the summit would only encourage Putin to keep fighting. Germany's president says Europeans must be at the table on Ukraine."
+      ],
+      "background": [
+        "Leaders of the US, Russia and China have never held a three-way summit. New START, the nuclear treaty between Washington and Moscow, expired in February 2026."
+      ],
+      "why": "Arms limits between the largest nuclear powers have lapsed. What the three leaders agree could affect the Iran war and Ukraine.",
+      "say": "Trump, Xi and Putin may meet in China next week, and Ukraine is officially off the agenda.",
+      "terms": [
+        {
+          "term": "APEC",
+          "def": "Asia-Pacific Economic Cooperation: a yearly summit of 21 Pacific-rim economies. China hosts this year, in Shenzhen."
+        },
+        {
+          "term": "Non-proliferation",
+          "def": "Efforts to stop nuclear weapons spreading to more countries."
+        }
+      ],
+      "sources": [
+        {
+          "name": "The Kyiv Independent",
+          "url": "https://kyivindependent.com/historic-first-summit-among-trump-xi-putin-will-not-focus-on-ukraine-white-house-says/"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/amp/news/2026/11/6/what-a-trump-xi-putin-summit-would-mean-and-what-it-wouldnt"
+        },
+        {
+          "name": "The Star (Bloomberg)",
+          "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/11/09/japan-works-to-shield-takaichi-from-any-xi-snub-at-china039s-apec-summit"
+        }
+      ]
+    },
+    {
+      "id": "iran-bahrain-radar",
+      "section": "World",
+      "region": "Middle East",
+      "headline": "Iran claims strike on US radar in Bahrain; US says drones downed",
+      "dek": "Reuters calls it Iran's first claimed attack on US forces in a Gulf state since early September.",
+      "what": [
+        "Iran's Revolutionary Guard says it destroyed a US early-warning radar in Bahrain on Friday, in revenge for a strike on a telecoms tower in southern Iran.",
+        "US Central Command says it shot down two Iranian attack drones, with no injuries or damage. Neither side's claim is independently confirmed.",
+        "Trump said on Thursday the US no longer needs a deal. Iran reportedly told the UN nuclear watchdog inspectors cannot return while Washington threatens it."
+      ],
+      "background": [
+        "The war began on 28 February with US and Israeli attacks on Iran. The US now blockades Iranian ports, and shipping through the Strait of Hormuz has been disrupted."
+      ],
+      "why": "About a fifth of the world's oil passes through Hormuz. Wider fighting there can push up fuel prices everywhere.",
+      "say": "Iran says it hit a US radar. The US says it downed drones. Neither is confirmed.",
+      "terms": [
+        {
+          "term": "CENTCOM",
+          "def": "US Central Command, the American military headquarters covering the Middle East."
+        },
+        {
+          "term": "One-way attack drone",
+          "def": "A cheap drone packed with explosives that crashes into its target."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Al Jazeera (Reuters)",
+          "url": "https://aljazeera.com/news/2026/11/13/iran-says-it-struck-us-radar-site-in-bahrain"
+        },
+        {
+          "name": "RFE/RL",
+          "url": "https://www.rferl.org/a/iran-us-sirik-bahrain-war-nuclear-talks/33897951.html"
+        },
+        {
+          "name": "Fox News",
+          "url": "https://www.foxnews.com/live-news/oil-prices-war-strikes-donald-trump-iran-11-13-26"
+        }
+      ]
+    },
+    {
+      "id": "ukraine-prisoner-swap",
+      "section": "World",
+      "region": "Europe",
+      "headline": "Russia and Ukraine agree a big prisoner swap, but not on land",
+      "dek": "US envoys were due to brief Putin in Moscow, then meet Zelenskyy in Ireland.",
+      "what": [
+        "The Abu Dhabi talks ended on 11 November with agreement in principle on a large prisoner swap. Numbers were due on Thursday.",
+        "US envoy Jared Kushner called territory the hardest issue and said the sides do not trust each other. Kyiv rejects Moscow's demand for all of Donbas.",
+        "Kyiv wants Europe at the next round. No date or venue has been set."
+      ],
+      "background": [
+        "Russia invaded in February 2022. The front is largely stuck, and both sides keep striking each other's cities and power sites."
+      ],
+      "why": "A big swap brings relief to families, but with land unresolved, peace still looks far off.",
+      "say": "Russia and Ukraine agreed to swap prisoners but are still far apart on land.",
+      "terms": [
+        {
+          "term": "Donbas",
+          "def": "Ukraine's eastern Donetsk and Luhansk regions. Russia wants Kyiv to hand over all of it."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/amp/news/2026/11/11/russia-ukraine-talks-in-abu-dhabi-end-with-prisoner-exchange-agreement"
+        },
+        {
+          "name": "Meduza",
+          "url": "https://meduza.io/en/feature/2026/11/11/russia-ukraine-peace-talks-conclude-in-abu-dhabi-with-prisoner-exchange-agreement-but-no-breakthrough-on-territory"
+        },
+        {
+          "name": "Reuters (via Al-Monitor)",
+          "url": "https://www.al-monitor.com/originals/2026/11/russia-and-ukraine-say-some-progress-made-talks-us-cites-lack-trust"
+        }
+      ]
+    },
+    {
+      "id": "israel-eisenkot-no-war",
+      "section": "World",
+      "region": "Middle East",
+      "headline": "Israel's Eisenkot warns Netanyahu against new war while he builds a coalition",
+      "dek": "The former army chief says Israel should not return to war in the coming weeks.",
+      "what": [
+        "Eisenkot says Israel should not resume fighting soon unless it faces an immediate threat. He says he has asked for operational updates and been refused.",
+        "Israeli media report the security cabinet has ordered preparations for a possible attack on Iran. Netanyahu's office says decisions are made solely for security reasons.",
+        "The Knesset convened on 10 November, and Eisenkot's allies agreed a first deal on parliamentary posts. A full coalition deal is expected to be harder."
+      ],
+      "background": [
+        "Israel voted on 27 October. Eisenkot's alliance won 48 seats and Netanyahu's bloc 53. Neither has the 61 needed, and Eisenkot rules out a government with Arab-led parties."
+      ],
+      "why": "Whoever governs will decide Israel's next steps on Gaza and Iran, as the US and Iran trade threats.",
+      "say": "Eisenkot has the mandate to replace Netanyahu and is already warning him not to start a war.",
+      "terms": [
+        {
+          "term": "Knesset",
+          "def": "Israel's parliament, which has 120 seats. A coalition needs 61."
+        }
+      ],
+      "sources": [
+        {
+          "name": "The National",
+          "url": "https://www.thenationalnews.com/news/mena/2026/11/11/eisenkot-says-israel-should-not-return-to-war-for-now/"
+        },
+        {
+          "name": "Al Jazeera (8 Nov)",
+          "url": "https://www.aljazeera.com/amp/news/2026/11/8/israels-president-tasks-eisenkot-to-form-new-coalition-government"
+        },
+        {
+          "name": "Al Jazeera (13 Nov)",
+          "url": "https://aljazeera.com/news/2026/11/13/iran-says-it-struck-us-radar-site-in-bahrain"
+        }
+      ]
+    },
+    {
+      "id": "mississippi-senate-colom",
+      "section": "World",
+      "region": "United States",
+      "headline": "Democrat Scott Colom narrowly flips Republican-held Mississippi Senate seat",
+      "dek": "He is the state's first Black senator since Reconstruction, after more than a week of counting.",
+      "what": [
+        "Colom beat Republican incumbent Cindy Hyde-Smith by 4,669 votes, according to Fox. The result was called on 11 November.",
+        "Early counts had the two just 65 votes apart. Mississippi has no runoff, so the top vote-getter wins.",
+        "No Democrat has represented Mississippi in the Senate since 1989."
+      ],
+      "background": [
+        "The 3 November midterms were projected to hand Democrats control of Congress. Axios called Colom's win a stunning upset."
+      ],
+      "why": "Every Senate seat counts towards the majority that passes laws and confirms Trump's appointees.",
+      "say": "Mississippi just elected its first Democratic senator since 1989, and its first Black senator since Reconstruction.",
+      "terms": [
+        {
+          "term": "Reconstruction",
+          "def": "The years after the US Civil War when the South was rebuilt and Black men first held office."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Fox 10 Phoenix (LiveNOW)",
+          "url": "https://www.fox10phoenix.com/news/scott-colom-wins-senate-mississippi"
+        },
+        {
+          "name": "Axios",
+          "url": "https://www.axios.com/2026/11/11/mississippi-ms-senate-scott-colom-cindy-hyde-smith"
+        },
+        {
+          "name": "WRDW (Gray News)",
+          "url": "https://www.wrdw.com/2026/11/11/mississippi-elects-democrat-scott-colom-states-first-black-us-senator-since-reconstruction/"
+        },
+        {
+          "name": "12 On Your Side",
+          "url": "https://www.12onyourside.com/2026/11/04/colom-hyde-smith-separated-by-narrow-margin-mississippi-senate-race/"
+        }
+      ]
+    },
+    {
+      "id": "nvidia-chip-bills",
+      "section": "Tech & Business",
+      "region": "United States",
+      "headline": "Nvidia scandal pushes Congress toward tighter limits on chips to China",
+      "dek": "Three export bills may ride on the US defence bill as Nvidia searches for a new CEO.",
+      "what": [
+        "Three bills tightening China's access to AI chips may be added to the 2027 defence bill, Reuters reports.",
+        "They would give Congress a say over chip exports, make firms track chips to stop smuggling, and push allies to restrict chipmaking equipment.",
+        "A former congressional staffer says Nvidia is the biggest opponent of two of them. Nvidia declined to comment. It reports earnings on 17 November."
+      ],
+      "background": [
+        "Jensen Huang quit as Nvidia CEO on 12 November after a board probe into his relationship with a woman US intelligence reportedly suspects of working for Beijing. China denies it. CFO Colette Kress is interim CEO."
+      ],
+      "why": "Nvidia makes most of the world's AI chips. Tighter US rules would shape who can build advanced AI, and how fast.",
+      "say": "Nvidia's scandal has given lawmakers a fresh reason to tighten the chip controls they were already pushing.",
+      "terms": [
+        {
+          "term": "NDAA",
+          "def": "The annual US defence spending law, often used to carry other national-security measures."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Reuters (via Deccan Chronicle)",
+          "url": "https://www.deccanchronicle.com/amp/technology/nvidia-spy-allegations-likely-to-spur-laws-to-tighten-chinas-access-to-ai-chips-2003159"
+        },
+        {
+          "name": "Nvidia",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition"
+        },
+        {
+          "name": "Fox Business",
+          "url": "https://www.foxbusiness.com/business-leaders/nvidia-ceo-jensen-huang-resigns-amid-investigation-relationship-alleged-chinese-spy"
+        }
+      ]
+    }
+  ],
+  "briefs": [
+    {
+      "text": "Asked about military action against Cuba on Thursday, Trump said he would like to be able to do it, per Drop Site News citing NBC. No plan has been reported.",
+      "source": {
+        "name": "Drop Site News",
+        "url": "https://www.dropsitenews.com/p/iran-hits-us-radar-in-bahrain-van"
+      }
+    },
+    {
+      "text": "Japan's PM Takaichi will attend APEC in Shenzhen on 18–19 November, but a formal meeting with Xi looks unlikely, Bloomberg reports. Ties are among their lowest since 1972.",
+      "source": {
+        "name": "The Star (Bloomberg)",
+        "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/11/09/japan-works-to-shield-takaichi-from-any-xi-snub-at-china039s-apec-summit"
+      }
+    },
+    {
+      "text": "Sudan's army and allied forces say they have captured Al-Khuwai and Serif Ankoush in West Kordofan from the RSF. Not independently confirmed.",
+      "source": {
+        "name": "WarHistory (citing Sudan Tribune)",
+        "url": "https://warhistory.org/maps/sudan/2026-11"
+      }
+    }
+  ]
+}

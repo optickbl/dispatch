@@ -1,371 +1,263 @@
 {
-  "date": "2026-11-13",
-  "published": "2026-11-13T15:30:00+02:00",
-  "summary": "Tankers burn in Hormuz as Trump threatens Iran, Nvidia's founder quits, and Netanyahu's rival gets the first shot at governing Israel.",
+  "date": "2026-11-14",
+  "published": "2026-11-14T07:40:00+02:00",
+  "summary": "A first-ever Trump–Xi–Putin summit is planned for next week, Iran claims a strike on a US radar in Bahrain, and Russia and Ukraine agree a prisoner swap.",
   "stories": [
     {
-      "id": "hormuz-tankers",
+      "id": "trump-xi-putin-summit",
       "section": "World",
-      "region": "Middle East",
-      "headline": "Tankers burn in Hormuz as Trump threatens new strikes on Iran",
-      "dek": "Iran says the ships ignored its warnings. Trump says he no longer needs a deal.",
+      "region": "Asia",
+      "headline": "White House says Trump, Xi and Putin plan first three-way summit",
+      "dek": "It is planned for the APEC summit in China on 18–19 November, a US official says.",
       "what": [
-        "Iran says two supertankers carrying over 4 million barrels of oil were disabled by explosions on a Hormuz route it calls unauthorised.",
-        "Trump said the US no longer needs a deal with Iran and he would strike again \"without hesitation\", possibly right away.",
-        "Israeli media say the US military has told Israel to prepare for renewed action."
+        "A senior US official said the talks will cover nuclear non-proliferation and the Iran war, not Ukraine. No new agreements are expected.",
+        "The Kremlin said earlier this month it was working to arrange it. Beijing has said only that it is in communication with the parties.",
+        "Kyiv says the summit would only encourage Putin to keep fighting. Germany's president says Europeans must be at the table on Ukraine."
       ],
       "background": [
-        "The US and Israel attacked Iran on 28 February. An April ceasefire didn't hold, and the fight moved to the Strait of Hormuz, where the US now blockades Iranian ports."
+        "Leaders of the US, Russia and China have never held a three-way summit. New START, the nuclear treaty between Washington and Moscow, expired in February 2026."
       ],
-      "why": "About a fifth of the world's oil passes through Hormuz. Trouble there pushes up fuel and food prices everywhere.",
-      "say": "The Iran war never really ended. It just moved to the Strait of Hormuz.",
+      "why": "Arms limits between the largest nuclear powers have lapsed. What the three leaders agree could affect the Iran war and Ukraine.",
+      "say": "Trump, Xi and Putin may meet in China next week, and Ukraine is officially off the agenda.",
       "terms": [
         {
-          "term": "Strait of Hormuz",
-          "def": "The narrow sea passage between Iran and Oman. It is the world's key oil chokepoint."
+          "term": "APEC",
+          "def": "Asia-Pacific Economic Cooperation: a yearly summit of 21 Pacific-rim economies. China hosts this year, in Shenzhen."
         },
         {
-          "term": "IRGC",
-          "def": "Iran's Revolutionary Guard, an elite force separate from the regular army."
+          "term": "Non-proliferation",
+          "def": "Efforts to stop nuclear weapons spreading to more countries."
         }
       ],
       "sources": [
         {
-          "name": "Anadolu Agency",
-          "url": "https://aa.com.tr/en/middle-east/iran-s-revolutionary-guard-says-2-oil-tankers-exploded-in-strait-of-hormuz/4122005"
+          "name": "The Kyiv Independent",
+          "url": "https://kyivindependent.com/historic-first-summit-among-trump-xi-putin-will-not-focus-on-ukraine-white-house-says/"
         },
         {
-          "name": "Xinhua",
-          "url": "https://english.news.cn/20261113/bac14b7b749f4d4dbc9a93429e9065b4/c.html"
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/amp/news/2026/11/6/what-a-trump-xi-putin-summit-would-mean-and-what-it-wouldnt"
         },
         {
-          "name": "Al Arabiya",
-          "url": "https://english.alarabiya.net/News/middle-east/2026/11/12/iran-says-two-oil-tankers-carrying-over-four-million-barrels-ablaze-in-hormuz-strait"
-        },
-        {
-          "name": "The Jerusalem Post",
-          "url": "https://www.jpost.com/middle-east/iran-news/article-914780"
-        },
-        {
-          "name": "WORLD",
-          "url": "https://wng.org/podcasts/friday-morning-news-november-13-2026-1794509912"
+          "name": "The Star (Bloomberg)",
+          "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/11/09/japan-works-to-shield-takaichi-from-any-xi-snub-at-china039s-apec-summit"
         }
       ]
     },
     {
-      "id": "nvidia-huang",
-      "section": "Tech & Business",
-      "region": "United States",
-      "headline": "Jensen Huang quits as Nvidia CEO after 33 years",
-      "dek": "Finance chief Colette Kress takes over for now, after a spy scandal.",
+      "id": "iran-bahrain-radar",
+      "section": "World",
+      "region": "Middle East",
+      "headline": "Iran claims strike on US radar in Bahrain; US says drones downed",
+      "dek": "Reuters calls it Iran's first claimed attack on US forces in a Gulf state since early September.",
       "what": [
-        "Huang, who co-founded Nvidia in 1993, has resigned. CFO Colette Kress is interim CEO while the board looks for a permanent one.",
-        "It follows a board probe into his affair with a Chinese businesswoman whom US officials reportedly suspect of spying for Beijing.",
-        "Nvidia says it has no reason to think company secrets or national security were compromised."
+        "Iran's Revolutionary Guard says it destroyed a US early-warning radar in Bahrain on Friday, in revenge for a strike on a telecoms tower in southern Iran.",
+        "US Central Command says it shot down two Iranian attack drones, with no injuries or damage. Neither side's claim is independently confirmed.",
+        "Trump said on Thursday the US no longer needs a deal. Iran reportedly told the UN nuclear watchdog inspectors cannot return while Washington threatens it."
       ],
       "background": [
-        "Nvidia makes the chips behind most of the world's AI and is worth over $4 trillion. The US bans sales of its best chips to China."
+        "The war began on 28 February with US and Israeli attacks on Iran. The US now blockades Iranian ports, and shipping through the Strait of Hormuz has been disrupted."
       ],
-      "why": "Nvidia is at the centre of the AI boom and the US–China tech fight. Losing its founder like this shakes both.",
-      "say": "Nvidia lost the founder who built it into the engine of AI, over a national-security scandal.",
+      "why": "About a fifth of the world's oil passes through Hormuz. Wider fighting there can push up fuel prices everywhere.",
+      "say": "Iran says it hit a US radar. The US says it downed drones. Neither is confirmed.",
       "terms": [
         {
-          "term": "Interim CEO",
-          "def": "A temporary boss who runs a company until a permanent one is chosen."
+          "term": "CENTCOM",
+          "def": "US Central Command, the American military headquarters covering the Middle East."
+        },
+        {
+          "term": "One-way attack drone",
+          "def": "A cheap drone packed with explosives that crashes into its target."
         }
       ],
       "sources": [
         {
-          "name": "Nvidia (SEC filing)",
-          "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000082/nvidiaannouncesceotransiti.htm"
+          "name": "Al Jazeera (Reuters)",
+          "url": "https://aljazeera.com/news/2026/11/13/iran-says-it-struck-us-radar-site-in-bahrain"
         },
         {
-          "name": "Fortune",
-          "url": "https://fortune.com/2026/11/09/nvidia-power-built-around-jensen-huang-scandal-testing-formula/"
+          "name": "RFE/RL",
+          "url": "https://www.rferl.org/a/iran-us-sirik-bahrain-war-nuclear-talks/33897951.html"
         },
         {
-          "name": "WORLD",
-          "url": "https://wng.org/podcasts/friday-morning-news-november-13-2026-1794509912"
+          "name": "Fox News",
+          "url": "https://www.foxnews.com/live-news/oil-prices-war-strikes-donald-trump-iran-11-13-26"
         }
       ]
     },
     {
-      "id": "israel-eisenkot",
+      "id": "ukraine-prisoner-swap",
       "section": "World",
-      "region": "Middle East",
-      "headline": "Netanyahu's rival Eisenkot gets first shot at forming Israel's government",
-      "dek": "The former army chief has 28 days to build a working majority.",
+      "region": "Europe",
+      "headline": "Russia and Ukraine agree a big prisoner swap, but not on land",
+      "dek": "US envoys were due to brief Putin in Moscow, then meet Zelenskyy in Ireland.",
       "what": [
-        "President Herzog gave the mandate to Gadi Eisenkot, leader of the centrist Yashar party, passing over Prime Minister Netanyahu.",
-        "67 of 120 lawmakers backed him, but that includes Arab-led parties some of his partners won't rely on.",
-        "He has 28 days, plus a possible 14. If he fails, Netanyahu gets a turn."
+        "The Abu Dhabi talks ended on 11 November with agreement in principle on a large prisoner swap. Numbers were due on Thursday.",
+        "US envoy Jared Kushner called territory the hardest issue and said the sides do not trust each other. Kyiv rejects Moscow's demand for all of Donbas.",
+        "Kyiv wants Europe at the next round. No date or venue has been set."
       ],
       "background": [
-        "Israel voted on 27 October. No party ever wins alone, so governments are coalitions that need 61 of the Knesset's 120 seats."
+        "Russia invaded in February 2022. The front is largely stuck, and both sides keep striking each other's cities and power sites."
       ],
-      "why": "This could end the Netanyahu era. The next government will set Israel's course on Gaza and Iran.",
-      "say": "Eisenkot has the mandate, but he still needs 61 reliable votes to replace Netanyahu.",
+      "why": "A big swap brings relief to families, but with land unresolved, peace still looks far off.",
+      "say": "Russia and Ukraine agreed to swap prisoners but are still far apart on land.",
       "terms": [
         {
-          "term": "Knesset",
-          "def": "Israel's parliament, which has 120 seats."
+          "term": "Donbas",
+          "def": "Ukraine's eastern Donetsk and Luhansk regions. Russia wants Kyiv to hand over all of it."
         }
       ],
       "sources": [
         {
           "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/news/2026/11/7/israels-president-picks-eisenkot-over-netanyahu-to-form-next-government"
+          "url": "https://www.aljazeera.com/amp/news/2026/11/11/russia-ukraine-talks-in-abu-dhabi-end-with-prisoner-exchange-agreement"
         },
         {
-          "name": "Israel Hayom",
-          "url": "https://www.israelhayom.com/2026/11/08/eisenkot-tasked-with-forming-government-calls-for-unity/"
+          "name": "Meduza",
+          "url": "https://meduza.io/en/feature/2026/11/11/russia-ukraine-peace-talks-conclude-in-abu-dhabi-with-prisoner-exchange-agreement-but-no-breakthrough-on-territory"
         },
-        {
-          "name": "The Express Tribune (Anadolu)",
-          "url": "https://tribune.com.pk/story/2639405/israeli-president-tasks-eisenkot-with-forming-new-government"
-        },
-        {
-          "name": "Fox News",
-          "url": "https://www.foxnews.com/world/israeli-president-picks-netanyahu-rival-form-government-coalition-battle-looms"
-        }
-      ]
-    },
-    {
-      "id": "g7-taiwan",
-      "section": "World",
-      "region": "Asia",
-      "headline": "G7 warns China over its pressure east of Taiwan",
-      "dek": "Taipei fears Beijing's coast-guard patrols are rehearsals for a blockade.",
-      "what": [
-        "G7 foreign ministers, meeting in Paris, said China's activity east of Taiwan threatens regional stability and international shipping.",
-        "It is their strongest joint statement on it yet. Beijing called it interference in its internal affairs."
-      ],
-      "background": [
-        "China claims Taiwan and hasn't ruled out force. Since June its coast guard has patrolled Taiwan's Pacific coast, the side Taipei relies on for supplies in a crisis."
-      ],
-      "why": "Taiwan makes most of the world's advanced chips. A blockade could cut it off without a shot being fired.",
-      "say": "The fear over Taiwan has shifted from invasion to blockade.",
-      "terms": [
-        {
-          "term": "G7",
-          "def": "Seven big democratic economies: the US, UK, France, Germany, Italy, Japan and Canada."
-        }
-      ],
-      "sources": [
-        {
-          "name": "Reuters (via AOL)",
-          "url": "https://www.aol.com/articles/g7-foreign-ministers-chinas-actions-021733000.html"
-        },
-        {
-          "name": "Modern Diplomacy",
-          "url": "https://moderndiplomacy.eu/2026/11/12/why-are-g7-countries-raising-concerns-about-chinas-military-activity-east-of-taiwan"
-        },
-        {
-          "name": "Clash Report",
-          "url": "https://clashreport.com/world/articles/g7-warns-china-s-moves-east-of-taiwan-threaten-global-shipping-7263cieupjo"
-        }
-      ]
-    },
-    {
-      "id": "ukraine-abu-dhabi",
-      "section": "World",
-      "region": "Europe",
-      "headline": "Russia and Ukraine hold first US-brokered talks in nine months",
-      "dek": "The Abu Dhabi talks were called productive, but the strikes go on.",
-      "what": [
-        "Delegations met in Abu Dhabi on 10–11 November, with Trump envoys Steve Witkoff and Jared Kushner mediating.",
-        "US Secretary of State Rubio called the talks very productive but said much work remains. Russia objects to Europe taking part."
-      ],
-      "background": [
-        "Russia invaded in February 2022. The front is largely stuck and both sides keep up long-range strikes. Russia fired 162 drones the night before talks began."
-      ],
-      "why": "It's the first real diplomacy in months, but territory is still the sticking point.",
-      "say": "Russia and Ukraine are talking again, but neither side has moved on territory.",
-      "terms": [
-        {
-          "term": "Security guarantees",
-          "def": "Promises from other countries to help defend Ukraine if Russia attacks again after a deal."
-        }
-      ],
-      "sources": [
         {
           "name": "Reuters (via Al-Monitor)",
-          "url": "https://www.al-monitor.com/originals/2026/11/us-mediate-trilateral-talks-ukraine-russia-abu-dhabi-next-week-us-envoy-says"
-        },
-        {
-          "name": "AP (via The Philadelphia Inquirer)",
-          "url": "https://www.inquirer.com/news/nation-world/russia-ukraine-peace-talks-abu-dhabi-putin-zelesnky-kushner-trump-20261110.html"
-        },
-        {
-          "name": "CP24",
-          "url": "https://cp24.com/news/world/2026/11/10/us-mediated-talks-on-ending-russia-ukraine-war-begin-in-abu-dhabi"
+          "url": "https://www.al-monitor.com/originals/2026/11/russia-and-ukraine-say-some-progress-made-talks-us-cites-lack-trust"
         }
       ]
     },
     {
-      "id": "us-senate-leader",
+      "id": "israel-eisenkot-no-war",
       "section": "World",
-      "region": "United States",
-      "headline": "Democrats win the Senate, then fight over who leads it",
-      "dek": "Chris Van Hollen is moving to challenge Chuck Schumer.",
+      "region": "Middle East",
+      "headline": "Israel's Eisenkot warns Netanyahu against new war while he builds a coalition",
+      "dek": "The former army chief says Israel should not return to war in the coming weeks.",
       "what": [
-        "The 3 November midterms gave Democrats control of the Senate from January, which would make Schumer majority leader again.",
-        "Several Democrats won't back him. NPR reports Maryland's Chris Van Hollen now says he'll challenge him, and Elissa Slotkin is weighing a run."
+        "Eisenkot says Israel should not resume fighting soon unless it faces an immediate threat. He says he has asked for operational updates and been refused.",
+        "Israeli media report the security cabinet has ordered preparations for a possible attack on Iran. Netanyahu's office says decisions are made solely for security reasons.",
+        "The Knesset convened on 10 November, and Eisenkot's allies agreed a first deal on parliamentary posts. A full coalition deal is expected to be harder."
       ],
       "background": [
-        "Each party's senators pick their leader in a closed majority vote, expected next month. The majority leader controls which bills get a vote."
+        "Israel voted on 27 October. Eisenkot's alliance won 48 seats and Netanyahu's bloc 53. Neither has the 61 needed, and Eisenkot rules out a government with Arab-led parties."
       ],
-      "why": "The winner decides how Democrats use their majority against Trump, from investigations to the Iran war.",
-      "say": "Democrats won the Senate and immediately started fighting over whether Schumer should lead it.",
+      "why": "Whoever governs will decide Israel's next steps on Gaza and Iran, as the US and Iran trade threats.",
+      "say": "Eisenkot has the mandate to replace Netanyahu and is already warning him not to start a war.",
       "terms": [
         {
-          "term": "Midterms",
-          "def": "US elections held halfway through a president's term."
+          "term": "Knesset",
+          "def": "Israel's parliament, which has 120 seats. A coalition needs 61."
         }
       ],
       "sources": [
         {
-          "name": "NPR",
-          "url": "https://www.npr.org/sections/news/"
+          "name": "The National",
+          "url": "https://www.thenationalnews.com/news/mena/2026/11/11/eisenkot-says-israel-should-not-return-to-war-for-now/"
         },
         {
-          "name": "Newsweek",
-          "url": "https://newsweek.com/chuck-schumer-chris-van-hollen-senate-majority-leader-challenge-12687780"
+          "name": "Al Jazeera (8 Nov)",
+          "url": "https://www.aljazeera.com/amp/news/2026/11/8/israels-president-tasks-eisenkot-to-form-new-coalition-government"
         },
         {
-          "name": "Fox 45 Baltimore (TNND)",
-          "url": "https://foxbaltimore.com/news/nation-world/senate-democrat-chris-van-hollen-re-opens-door-to-leadership-bid-elections-chuck-schumer-majority-leader-rrt"
-        },
-        {
-          "name": "Al-Monitor",
-          "url": "https://www.al-monitor.com/originals/2026/11/slotkin-van-hollen-emerge-potential-challengers-schumers-senate-leadership"
+          "name": "Al Jazeera (13 Nov)",
+          "url": "https://aljazeera.com/news/2026/11/13/iran-says-it-struck-us-radar-site-in-bahrain"
         }
       ]
     },
     {
-      "id": "us-inflation",
-      "section": "Tech & Business",
+      "id": "mississippi-senate-colom",
+      "section": "World",
       "region": "United States",
-      "headline": "US inflation runs hot, and a Fed rate hike looks likely",
-      "dek": "Prices rose 0.4% in October, the last big reading before the Fed meets.",
+      "headline": "Democrat Scott Colom narrowly flips Republican-held Mississippi Senate seat",
+      "dek": "He is the state's first Black senator since Reconstruction, after more than a week of counting.",
       "what": [
-        "Consumer prices rose 0.4% in October, above the 0.3% expected. Core prices, without food and energy, rose 0.3%.",
-        "There's no annual figure: last year's shutdown meant October 2025 prices were never collected. September's annual rate was 3.7%."
+        "Colom beat Republican incumbent Cindy Hyde-Smith by 4,669 votes, according to Fox. The result was called on 11 November.",
+        "Early counts had the two just 65 votes apart. Mississippi has no runoff, so the top vote-getter wins.",
+        "No Democrat has represented Mississippi in the Senate since 1989."
       ],
       "background": [
-        "The Fed targets 2% inflation. With prices well above that, markets expect a rate hike at its 8–9 December meeting, not a cut."
+        "The 3 November midterms were projected to hand Democrats control of Congress. Axios called Colom's win a stunning upset."
       ],
-      "why": "Higher US rates make borrowing more expensive and ripple through markets worldwide.",
-      "say": "US inflation is stuck well above target, so the Fed is expected to raise rates, not cut them.",
+      "why": "Every Senate seat counts towards the majority that passes laws and confirms Trump's appointees.",
+      "say": "Mississippi just elected its first Democratic senator since 1989, and its first Black senator since Reconstruction.",
       "terms": [
         {
-          "term": "Core inflation",
-          "def": "Price rises without food and energy, which swing a lot. It shows the underlying trend."
+          "term": "Reconstruction",
+          "def": "The years after the US Civil War when the South was rebuilt and Black men first held office."
         }
       ],
       "sources": [
         {
-          "name": "Reuters (via ColoradoBiz)",
-          "url": "https://coloradobiz.com/us-consumer-prices-rise-strongly-october/"
+          "name": "Fox 10 Phoenix (LiveNOW)",
+          "url": "https://www.fox10phoenix.com/news/scott-colom-wins-senate-mississippi"
         },
         {
-          "name": "CBS News",
-          "url": "https://cbsnews.com/news/october-cpi-report-elevated-inflation"
+          "name": "Axios",
+          "url": "https://www.axios.com/2026/11/11/mississippi-ms-senate-scott-colom-cindy-hyde-smith"
         },
         {
-          "name": "Stock Analysis",
-          "url": "https://stockanalysis.com/news/us-cpi-rises-october-2026/"
+          "name": "WRDW (Gray News)",
+          "url": "https://www.wrdw.com/2026/11/11/mississippi-elects-democrat-scott-colom-states-first-black-us-senator-since-reconstruction/"
+        },
+        {
+          "name": "12 On Your Side",
+          "url": "https://www.12onyourside.com/2026/11/04/colom-hyde-smith-separated-by-narrow-margin-mississippi-senate-race/"
         }
       ]
     },
     {
-      "id": "cop31-antalya",
-      "section": "World",
-      "region": "Europe & Middle East",
-      "headline": "COP31 climate talks hit halfway in Antalya, without the US",
-      "dek": "Leaders have spoken. The fight over money runs until 20 November.",
-      "what": [
-        "About 190 countries are meeting in Antalya, Turkey. Turkey hosts while Australia runs the negotiations.",
-        "The hosts want a pledge to electrify over a third of the global economy by 2035.",
-        "The US sent no officials after Trump took it out of the Paris Agreement."
-      ],
-      "background": [
-        "COPs are the yearly UN climate summits. Poorer countries want more money to cope with climate change, and the EU says there's little appetite for new pledges."
-      ],
-      "why": "The world is off track for the 1.5°C goal, and these deals shape energy prices for years.",
-      "say": "COP31 is going ahead without the US, so it's up to Europe, China and emerging economies.",
-      "terms": [],
-      "sources": [
-        {
-          "name": "Khaleej Times (AFP)",
-          "url": "https://www.khaleejtimes.com/cop31-opens-leaders-pressure-tackle-climate-crisis"
-        },
-        {
-          "name": "BusinessDay (Reuters)",
-          "url": "https://www.businessday.co.za/world/europe/2026-11-09-cop31-leaders-urge-faster-global-action-on-climate/"
-        },
-        {
-          "name": "Balkan Green Energy News",
-          "url": "https://balkangreenenergynews.com/cop31-opens-amid-warnings-that-2026-will-be-among-hottest-years-on-record/"
-        },
-        {
-          "name": "Climate Home News",
-          "url": "https://climatechangenews.com/2026/09/11/turkiye-says-it-has-final-decision-at-cop31-despite-australia-running-negotiations"
-        }
-      ]
-    },
-    {
-      "id": "spacex-dragon",
+      "id": "nvidia-chip-bills",
       "section": "Tech & Business",
-      "region": "Space",
-      "headline": "SpaceX plans to retire Crew Dragon, America's astronaut taxi",
-      "dek": "It's betting on Starship, leaving NASA leaning on Boeing.",
+      "region": "United States",
+      "headline": "Nvidia scandal pushes Congress toward tighter limits on chips to China",
+      "dek": "Three export bills may ride on the US defence bill as Nvidia searches for a new CEO.",
       "what": [
-        "SpaceX will wind down Falcon 9 and Crew Dragon around 2030, when the space station retires, NASA's chief has confirmed.",
-        "NASA is paying Boeing $359 million to revive Starliner, whose only crewed flight ended with its astronauts coming home on a SpaceX capsule."
+        "Three bills tightening China's access to AI chips may be added to the 2027 defence bill, Reuters reports.",
+        "They would give Congress a say over chip exports, make firms track chips to stop smuggling, and push allies to restrict chipmaking equipment.",
+        "A former congressional staffer says Nvidia is the biggest opponent of two of them. Nvidia declined to comment. It reports earnings on 17 November."
       ],
       "background": [
-        "Since 2020, Crew Dragon has been the main way NASA gets astronauts to the space station."
+        "Jensen Huang quit as Nvidia CEO on 12 November after a board probe into his relationship with a woman US intelligence reportedly suspects of working for Beijing. China denies it. CFO Colette Kress is interim CEO."
       ],
-      "why": "The West's access to space increasingly depends on one company's business choices.",
-      "say": "SpaceX is retiring NASA's taxi to bet on Starship, and NASA's plan B is Boeing.",
-      "terms": [],
+      "why": "Nvidia makes most of the world's AI chips. Tighter US rules would shape who can build advanced AI, and how fast.",
+      "say": "Nvidia's scandal has given lawmakers a fresh reason to tighten the chip controls they were already pushing.",
+      "terms": [
+        {
+          "term": "NDAA",
+          "def": "The annual US defence spending law, often used to carry other national-security measures."
+        }
+      ],
       "sources": [
         {
-          "name": "Space Launch Schedule",
-          "url": "https://www.spacelaunchschedule.com/news/spacex-retiring-crew-dragon-falcon-what-replaces-them/"
+          "name": "Reuters (via Deccan Chronicle)",
+          "url": "https://www.deccanchronicle.com/amp/technology/nvidia-spy-allegations-likely-to-spur-laws-to-tighten-chinas-access-to-ai-chips-2003159"
         },
         {
-          "name": "Digital Today (citing Ars Technica)",
-          "url": "https://www.digitaltoday.co.kr/en/view/108922/spacex-moves-to-withdraw-dragon-falcon-9-crewed-missions-after-2030-widening-nasa-low-earth-orbit-gap"
+          "name": "Nvidia",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition"
         },
         {
-          "name": "Gizmodo",
-          "url": "https://gizmodo.com/boeings-starliner-faces-a-critical-test-this-year-as-nasa-is-running-out-of-options-2000818881"
+          "name": "Fox Business",
+          "url": "https://www.foxbusiness.com/business-leaders/nvidia-ceo-jensen-huang-resigns-amid-investigation-relationship-alleged-chinese-spy"
         }
       ]
     }
   ],
   "briefs": [
     {
-      "text": "Trump warned Mexico over a migrant caravan heading north. Mexico's President Sheinbaum says migrants are being sent home.",
+      "text": "Asked about military action against Cuba on Thursday, Trump said he would like to be able to do it, per Drop Site News citing NBC. No plan has been reported.",
       "source": {
-        "name": "WORLD",
-        "url": "https://wng.org/podcasts/friday-morning-news-november-13-2026-1794509912"
+        "name": "Drop Site News",
+        "url": "https://www.dropsitenews.com/p/iran-hits-us-radar-in-bahrain-van"
       }
     },
     {
-      "text": "Brazil's Lula, fresh from re-election, is among the leaders speaking at COP31.",
+      "text": "Japan's PM Takaichi will attend APEC in Shenzhen on 18–19 November, but a formal meeting with Xi looks unlikely, Bloomberg reports. Ties are among their lowest since 1972.",
       "source": {
-        "name": "Khaleej Times (AFP)",
-        "url": "https://www.khaleejtimes.com/world/cop31-opens-leaders-pressure-tackle-climate-crisis?amp=1"
+        "name": "The Star (Bloomberg)",
+        "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/11/09/japan-works-to-shield-takaichi-from-any-xi-snub-at-china039s-apec-summit"
       }
     },
     {
-      "text": "Today, 13 November, is World Kindness Day.",
+      "text": "Sudan's army and allied forces say they have captured Al-Khuwai and Serif Ankoush in West Kordofan from the RSF. Not independently confirmed.",
       "source": {
-        "name": "NPR",
-        "url": "https://www.npr.org/sections/news/"
+        "name": "WarHistory (citing Sudan Tribune)",
+        "url": "https://warhistory.org/maps/sudan/2026-11"
       }
     }
   ]
