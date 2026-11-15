@@ -1,0 +1,245 @@
+{
+  "date": "2026-11-15",
+  "published": "2026-11-15T07:28:00+02:00",
+  "summary": "Zelenskyy says the US floated Donbas for NATO membership, Gaza's first winter storm floods tens of thousands of tents, and Nvidia's board hires a prosecutor to probe its CEO.",
+  "stories": [
+    {
+      "id": "zelenskyy-donbas-nato",
+      "section": "World",
+      "region": "Europe",
+      "headline": "Zelenskyy says US floated Ukraine leaving Donbas in exchange for NATO membership",
+      "dek": "Kyiv is not ready to cede land, he said, after Abu Dhabi talks ended without a breakthrough.",
+      "what": [
+        "Zelenskyy said US negotiators asked whether Ukraine would leave Donbas if it could join NATO. He said NATO membership had not been tied to land before.",
+        "He said Kyiv is not ready to concede territory, but with security guarantees, a funded army and rebuilding money he would put the question to a referendum.",
+        "Jared Kushner called both sides' positions \"maximalist\" but said they privately accept compromises will be needed. European leaders named a negotiating team on Friday."
+      ],
+      "background": [
+        "Russia and Ukraine held two days of US-brokered talks in Abu Dhabi, ending 11 November with no breakthrough but a deal to swap over 1,000 prisoners, per Zelenskyy. Moscow has long called Ukrainian NATO membership a red line."
+      ],
+      "why": "Land and NATO membership are central issues in the war. A deal would reshape Europe's security, and Europeans want a say.",
+      "say": "Zelenskyy says Washington floated Donbas-for-NATO, but Kyiv is not ready to cede land.",
+      "terms": [
+        {
+          "term": "Donbas",
+          "def": "Ukraine's eastern industrial region of Donetsk and Luhansk, much of it now held by Russia."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Reuters (via Yahoo)",
+          "url": "https://www.yahoo.com/news/us/articles/us-floated-idea-ukraine-ceding-122531169.html"
+        },
+        {
+          "name": "Newsweek",
+          "url": "https://www.newsweek.com/zelensky-us-raised-territory-nato-trade-off-12715459"
+        },
+        {
+          "name": "The Globe and Mail",
+          "url": "https://www.theglobeandmail.com/world/article-us-ukraine-cede-donbas-nato-membership/"
+        }
+      ]
+    },
+    {
+      "id": "gaza-winter-floods",
+      "section": "World",
+      "region": "Middle East",
+      "headline": "First winter storm floods tens of thousands of tents across Gaza",
+      "dek": "At least five died when a rain-soaked embankment collapsed on tents near Deir al-Balah on 8 November.",
+      "what": [
+        "Gaza's government media office says about 70,000 tents flooded within 12 hours, according to Reuters. Gaza's health ministry says 350,000 people are exposed.",
+        "The UN counts at least 26,000 households flooded, per the IRC. Aid groups say they hold about 2,800 tents in Gaza against a need of roughly 121,000.",
+        "Palestinian officials say Israel is blocking shelter supplies at crossings. COGAT, Israel's aid coordinator, did not immediately respond, but said it had raised sanitation efforts."
+      ],
+      "background": [
+        "A US-brokered ceasefire took effect in October 2025, but reconstruction has made little progress and negotiators are split over Hamas disarmament and Israeli withdrawal. Israel still controls about two-thirds of the territory, per Reuters."
+      ],
+      "why": "Nearly two million displaced people face a fourth winter in tents. Aid groups say the ceasefire has not brought them shelter.",
+      "say": "Gaza's first winter storm flooded tens of thousands of tents; aid groups blame restrictions on shelter supplies.",
+      "terms": [
+        {
+          "term": "COGAT",
+          "def": "Israel's military body that coordinates aid and civilian matters in the Palestinian territories."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Gulf News",
+          "url": "https://gulfnews.com/world/mena/gaza-floods-leave-350-000-palestinians-without-shelter-1.500741196"
+        },
+        {
+          "name": "International Rescue Committee",
+          "url": "https://www.rescue.org/press-release/least-5-dead-26000-households-flooded-people-gaza-face-fourth-winter-tents"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/8/floods-in-gaza-leave-tens-of-thousands-without-shelter"
+        }
+      ]
+    },
+    {
+      "id": "hegseth-impeachment-shelved",
+      "section": "World",
+      "region": "United States",
+      "headline": "House votes 211–204 to shelve Hegseth impeachment articles",
+      "dek": "Republican leaders sent Rep. Thomas Massie's eight articles to committee, where they are unlikely to advance.",
+      "what": [
+        "On 10 November the House backed a motion to refer the articles to the Judiciary Committee, 211–204. Massie was the only Republican to oppose the referral.",
+        "Massie's eight articles allege War Powers violations over Iran, breaches of civilian-casualty laws and extrajudicial killings in drug-boat strikes, among others.",
+        "Hegseth called the charges policy disagreements and a political spectacle. Trump backed him, saying the Iran war was needed to stop Tehran getting a nuclear weapon."
+      ],
+      "background": [
+        "Referral to committee does not permanently rule out impeachment, but the committee need not act. The House has impeached only two cabinet secretaries, in 1876 and 2024, and the Senate convicted neither."
+      ],
+      "why": "House Republicans blocked a vote on impeaching the Pentagon chief days after midterm losses that AP links to anger over the Iran war.",
+      "say": "The House sent the Hegseth impeachment articles to committee 211–204, which effectively parks them for now.",
+      "terms": [
+        {
+          "term": "Impeachment",
+          "def": "The House formally charges an official with serious misconduct; the Senate then tries them, and removal needs two-thirds."
+        },
+        {
+          "term": "War Powers Resolution",
+          "def": "A 1973 law limiting a president's power to commit US forces to hostilities without Congress's approval."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Breaking Defense",
+          "url": "https://breakingdefense.com/2026/11/house-opts-to-stall-hegseth-impeachment-vote-sending-resolution-to-judiciary-committee/"
+        },
+        {
+          "name": "Deseret News",
+          "url": "https://www.deseret.com/politics/2026/11/10/house-votes-to-impeach-pete-hegseth/"
+        },
+        {
+          "name": "ITV News (AP)",
+          "url": "https://www.itv.com/news/2026-11-09/trump-says-he-believes-war-with-iran-is-militarily-effectively-over"
+        }
+      ]
+    },
+    {
+      "id": "yemen-sanaa-airstrikes",
+      "section": "World",
+      "region": "Middle East",
+      "headline": "Airstrikes on a village near Sanaa kill dozens, Houthi officials say",
+      "dek": "The Houthis blame Saudi Arabia; AP could not verify who carried out the strikes.",
+      "what": [
+        "Houthi officials said airstrikes hit homes in al-Shariya, near Sanaa, on 7 November, killing at least 22, mostly women and children, AP reported.",
+        "Houthi officials later raised the toll to at least 44, SCMP reports. Saudi Arabia's information ministry did not immediately respond to AP.",
+        "A day earlier, an airstrike on a market in southern Yemen killed at least 30 people, Houthi officials said. The Houthis and Saudi-backed forces blame each other."
+      ],
+      "background": [
+        "A years-long truce collapsed this summer. In September the Iran-backed Houthis seized much of the Red Sea coast and islands in the Bab el-Mandeb Strait, and have stepped up attacks on Saudi oil sites and shipping."
+      ],
+      "why": "The Bab el-Mandeb Strait is a key route for ships between Asia and Europe. A wider Saudi–Houthi war adds risk to oil and shipping.",
+      "say": "Houthis say airstrikes near Sanaa killed dozens and blame Saudi Arabia. That claim is unverified.",
+      "terms": [
+        {
+          "term": "Houthis",
+          "def": "Iran-backed rebel movement that holds Sanaa and much of northern Yemen."
+        },
+        {
+          "term": "Bab el-Mandeb",
+          "def": "Narrow strait between Yemen and Djibouti linking the Red Sea to the Gulf of Aden."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Daily Sabah (AP)",
+          "url": "https://www.dailysabah.com/world/mid-east/yemen-airstrikes-kill-22-wound-30-near-houthi-controlled-capital/amp"
+        },
+        {
+          "name": "South China Morning Post",
+          "url": "https://scmp.com/news/world/middle-east/article/3373850/houthi-rebels-say-least-44-people-killed-air-strike-near-yemeni-capital"
+        }
+      ]
+    },
+    {
+      "id": "sudan-haroun-detained",
+      "section": "World",
+      "region": "Africa",
+      "headline": "Sudan's army detains ICC-wanted ex-ruling party chief Ahmed Haroun",
+      "dek": "No reason has been given; his party says he was held for speaking out.",
+      "what": [
+        "Defence lawyers told AP the military detained him on Sunday 8 November in Omdurman. Two party officials confirmed the arrest to Reuters.",
+        "The army has given no reason. Lawyers linked it to a podcast where he said his party and the army are united against the RSF.",
+        "His party demanded his release, saying he was held for voicing an opinion. A lawyers' group urged the army to hand him to the ICC instead."
+      ],
+      "background": [
+        "Haroun, a senior security official under ex-president Omar al-Bashir, is wanted by the ICC for crimes against humanity and war crimes in Darfur, which he denies. He walked out of prison in April 2024 when it was attacked."
+      ],
+      "why": "Whether Sudan's army hands ICC suspects to the court matters for Darfur's victims. The UN calls the war the world's biggest humanitarian crisis.",
+      "say": "Sudan's army has detained an ICC-wanted ex-ruling party chief, but has not said why.",
+      "terms": [
+        {
+          "term": "ICC",
+          "def": "International Criminal Court in The Hague, which tries individuals for genocide, war crimes and crimes against humanity."
+        },
+        {
+          "term": "RSF",
+          "def": "Rapid Support Forces, the paramilitary group fighting Sudan's army since April 2023."
+        }
+      ],
+      "sources": [
+        {
+          "name": "AP (via NY1)",
+          "url": "https://ny1.com/nyc/all-boroughs/ap-top-news/2026/11/08/sudans-military-again-detains-international-criminal-court-fugitive-haroun-lawyers-say"
+        },
+        {
+          "name": "Reuters (via Al-Monitor)",
+          "url": "https://www.al-monitor.com/originals/2026/11/sudan-detains-ex-ruling-party-head-haroun-wanted-icc"
+        }
+      ]
+    },
+    {
+      "id": "nvidia-board-probe",
+      "section": "Tech & Business",
+      "region": "United States",
+      "headline": "Nvidia board hires ex-prosecutor to investigate CEO Jensen Huang",
+      "dek": "Huang admitted a relationship with a former Megaspeed executive suspected of spying for China. He remains CEO.",
+      "what": [
+        "Independent directors hired Joon Kim, a former acting US Attorney in New York, and law firm Wachtell Lipton to lead the probe, announced 10 November.",
+        "The board opened the inquiry on 8 November and backed Huang. Nvidia says it sees no sign national security or its secrets were compromised.",
+        "Shares closed down about 4% on 9 November, which Fortune says wiped roughly $190bn off its value. Nvidia reports quarterly results on 17 November."
+      ],
+      "background": [
+        "US officials have reportedly concluded the executive, from Singapore-based chip buyer Megaspeed, was recruited by Chinese intelligence; China rejects this. The NYT reports Megaspeed is suspected of helping smuggle restricted chips into China."
+      ],
+      "why": "Nvidia chips underpin much of today's AI. Senators Warren and Banks jointly called for tighter AI chip export limits.",
+      "say": "Nvidia has hired a former federal prosecutor to probe its CEO, days before it reports earnings on Tuesday.",
+      "terms": [
+        {
+          "term": "Megaspeed",
+          "def": "Singapore-based buyer of Nvidia chips, suspected by US officials of helping route restricted chips to China."
+        }
+      ],
+      "sources": [
+        {
+          "name": "The Next Web",
+          "url": "https://thenextweb.com/news/nvidia-board-jensen-huang-inquiry-directors-succession"
+        },
+        {
+          "name": "Fortune",
+          "url": "https://fortune.com/2026/11/11/nvidia-board-directors-jensen-huang-captive-board/"
+        }
+      ]
+    }
+  ],
+  "briefs": [
+    {
+      "text": "Greenland's parliament approved a security deal with the US and Denmark on 3 November, after months of pressure from President Trump.",
+      "source": {
+        "name": "ITV News",
+        "url": "https://www.itv.com/news/2026-11-03/greenland-lawmakers-back-security-pact-with-us-denmark-following-trumps-pressure"
+      }
+    },
+    {
+      "text": "The 49th ASEAN Summit and related meetings are scheduled in Manila from 15 to 17 November, Xinhua reports.",
+      "source": {
+        "name": "Nhan Dan (Xinhua)",
+        "url": "https://en.nhandan.vn/world-news-in-brief-november-14-post169136.html"
+      }
+    }
+  ]
+}

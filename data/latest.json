@@ -1,263 +1,244 @@
 {
-  "date": "2026-11-14",
-  "published": "2026-11-14T07:40:00+02:00",
-  "summary": "A first-ever Trump–Xi–Putin summit is planned for next week, Iran claims a strike on a US radar in Bahrain, and Russia and Ukraine agree a prisoner swap.",
+  "date": "2026-11-15",
+  "published": "2026-11-15T07:28:00+02:00",
+  "summary": "Zelenskyy says the US floated Donbas for NATO membership, Gaza's first winter storm floods tens of thousands of tents, and Nvidia's board hires a prosecutor to probe its CEO.",
   "stories": [
     {
-      "id": "trump-xi-putin-summit",
-      "section": "World",
-      "region": "Asia",
-      "headline": "White House says Trump, Xi and Putin plan first three-way summit",
-      "dek": "It is planned for the APEC summit in China on 18–19 November, a US official says.",
-      "what": [
-        "A senior US official said the talks will cover nuclear non-proliferation and the Iran war, not Ukraine. No new agreements are expected.",
-        "The Kremlin said earlier this month it was working to arrange it. Beijing has said only that it is in communication with the parties.",
-        "Kyiv says the summit would only encourage Putin to keep fighting. Germany's president says Europeans must be at the table on Ukraine."
-      ],
-      "background": [
-        "Leaders of the US, Russia and China have never held a three-way summit. New START, the nuclear treaty between Washington and Moscow, expired in February 2026."
-      ],
-      "why": "Arms limits between the largest nuclear powers have lapsed. What the three leaders agree could affect the Iran war and Ukraine.",
-      "say": "Trump, Xi and Putin may meet in China next week, and Ukraine is officially off the agenda.",
-      "terms": [
-        {
-          "term": "APEC",
-          "def": "Asia-Pacific Economic Cooperation: a yearly summit of 21 Pacific-rim economies. China hosts this year, in Shenzhen."
-        },
-        {
-          "term": "Non-proliferation",
-          "def": "Efforts to stop nuclear weapons spreading to more countries."
-        }
-      ],
-      "sources": [
-        {
-          "name": "The Kyiv Independent",
-          "url": "https://kyivindependent.com/historic-first-summit-among-trump-xi-putin-will-not-focus-on-ukraine-white-house-says/"
-        },
-        {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/amp/news/2026/11/6/what-a-trump-xi-putin-summit-would-mean-and-what-it-wouldnt"
-        },
-        {
-          "name": "The Star (Bloomberg)",
-          "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/11/09/japan-works-to-shield-takaichi-from-any-xi-snub-at-china039s-apec-summit"
-        }
-      ]
-    },
-    {
-      "id": "iran-bahrain-radar",
-      "section": "World",
-      "region": "Middle East",
-      "headline": "Iran claims strike on US radar in Bahrain; US says drones downed",
-      "dek": "Reuters calls it Iran's first claimed attack on US forces in a Gulf state since early September.",
-      "what": [
-        "Iran's Revolutionary Guard says it destroyed a US early-warning radar in Bahrain on Friday, in revenge for a strike on a telecoms tower in southern Iran.",
-        "US Central Command says it shot down two Iranian attack drones, with no injuries or damage. Neither side's claim is independently confirmed.",
-        "Trump said on Thursday the US no longer needs a deal. Iran reportedly told the UN nuclear watchdog inspectors cannot return while Washington threatens it."
-      ],
-      "background": [
-        "The war began on 28 February with US and Israeli attacks on Iran. The US now blockades Iranian ports, and shipping through the Strait of Hormuz has been disrupted."
-      ],
-      "why": "About a fifth of the world's oil passes through Hormuz. Wider fighting there can push up fuel prices everywhere.",
-      "say": "Iran says it hit a US radar. The US says it downed drones. Neither is confirmed.",
-      "terms": [
-        {
-          "term": "CENTCOM",
-          "def": "US Central Command, the American military headquarters covering the Middle East."
-        },
-        {
-          "term": "One-way attack drone",
-          "def": "A cheap drone packed with explosives that crashes into its target."
-        }
-      ],
-      "sources": [
-        {
-          "name": "Al Jazeera (Reuters)",
-          "url": "https://aljazeera.com/news/2026/11/13/iran-says-it-struck-us-radar-site-in-bahrain"
-        },
-        {
-          "name": "RFE/RL",
-          "url": "https://www.rferl.org/a/iran-us-sirik-bahrain-war-nuclear-talks/33897951.html"
-        },
-        {
-          "name": "Fox News",
-          "url": "https://www.foxnews.com/live-news/oil-prices-war-strikes-donald-trump-iran-11-13-26"
-        }
-      ]
-    },
-    {
-      "id": "ukraine-prisoner-swap",
+      "id": "zelenskyy-donbas-nato",
       "section": "World",
       "region": "Europe",
-      "headline": "Russia and Ukraine agree a big prisoner swap, but not on land",
-      "dek": "US envoys were due to brief Putin in Moscow, then meet Zelenskyy in Ireland.",
+      "headline": "Zelenskyy says US floated Ukraine leaving Donbas in exchange for NATO membership",
+      "dek": "Kyiv is not ready to cede land, he said, after Abu Dhabi talks ended without a breakthrough.",
       "what": [
-        "The Abu Dhabi talks ended on 11 November with agreement in principle on a large prisoner swap. Numbers were due on Thursday.",
-        "US envoy Jared Kushner called territory the hardest issue and said the sides do not trust each other. Kyiv rejects Moscow's demand for all of Donbas.",
-        "Kyiv wants Europe at the next round. No date or venue has been set."
+        "Zelenskyy said US negotiators asked whether Ukraine would leave Donbas if it could join NATO. He said NATO membership had not been tied to land before.",
+        "He said Kyiv is not ready to concede territory, but with security guarantees, a funded army and rebuilding money he would put the question to a referendum.",
+        "Jared Kushner called both sides' positions \"maximalist\" but said they privately accept compromises will be needed. European leaders named a negotiating team on Friday."
       ],
       "background": [
-        "Russia invaded in February 2022. The front is largely stuck, and both sides keep striking each other's cities and power sites."
+        "Russia and Ukraine held two days of US-brokered talks in Abu Dhabi, ending 11 November with no breakthrough but a deal to swap over 1,000 prisoners, per Zelenskyy. Moscow has long called Ukrainian NATO membership a red line."
       ],
-      "why": "A big swap brings relief to families, but with land unresolved, peace still looks far off.",
-      "say": "Russia and Ukraine agreed to swap prisoners but are still far apart on land.",
+      "why": "Land and NATO membership are central issues in the war. A deal would reshape Europe's security, and Europeans want a say.",
+      "say": "Zelenskyy says Washington floated Donbas-for-NATO, but Kyiv is not ready to cede land.",
       "terms": [
         {
           "term": "Donbas",
-          "def": "Ukraine's eastern Donetsk and Luhansk regions. Russia wants Kyiv to hand over all of it."
+          "def": "Ukraine's eastern industrial region of Donetsk and Luhansk, much of it now held by Russia."
         }
       ],
       "sources": [
         {
-          "name": "Al Jazeera",
-          "url": "https://www.aljazeera.com/amp/news/2026/11/11/russia-ukraine-talks-in-abu-dhabi-end-with-prisoner-exchange-agreement"
+          "name": "Reuters (via Yahoo)",
+          "url": "https://www.yahoo.com/news/us/articles/us-floated-idea-ukraine-ceding-122531169.html"
         },
         {
-          "name": "Meduza",
-          "url": "https://meduza.io/en/feature/2026/11/11/russia-ukraine-peace-talks-conclude-in-abu-dhabi-with-prisoner-exchange-agreement-but-no-breakthrough-on-territory"
+          "name": "Newsweek",
+          "url": "https://www.newsweek.com/zelensky-us-raised-territory-nato-trade-off-12715459"
+        },
+        {
+          "name": "The Globe and Mail",
+          "url": "https://www.theglobeandmail.com/world/article-us-ukraine-cede-donbas-nato-membership/"
+        }
+      ]
+    },
+    {
+      "id": "gaza-winter-floods",
+      "section": "World",
+      "region": "Middle East",
+      "headline": "First winter storm floods tens of thousands of tents across Gaza",
+      "dek": "At least five died when a rain-soaked embankment collapsed on tents near Deir al-Balah on 8 November.",
+      "what": [
+        "Gaza's government media office says about 70,000 tents flooded within 12 hours, according to Reuters. Gaza's health ministry says 350,000 people are exposed.",
+        "The UN counts at least 26,000 households flooded, per the IRC. Aid groups say they hold about 2,800 tents in Gaza against a need of roughly 121,000.",
+        "Palestinian officials say Israel is blocking shelter supplies at crossings. COGAT, Israel's aid coordinator, did not immediately respond, but said it had raised sanitation efforts."
+      ],
+      "background": [
+        "A US-brokered ceasefire took effect in October 2025, but reconstruction has made little progress and negotiators are split over Hamas disarmament and Israeli withdrawal. Israel still controls about two-thirds of the territory, per Reuters."
+      ],
+      "why": "Nearly two million displaced people face a fourth winter in tents. Aid groups say the ceasefire has not brought them shelter.",
+      "say": "Gaza's first winter storm flooded tens of thousands of tents; aid groups blame restrictions on shelter supplies.",
+      "terms": [
+        {
+          "term": "COGAT",
+          "def": "Israel's military body that coordinates aid and civilian matters in the Palestinian territories."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Gulf News",
+          "url": "https://gulfnews.com/world/mena/gaza-floods-leave-350-000-palestinians-without-shelter-1.500741196"
+        },
+        {
+          "name": "International Rescue Committee",
+          "url": "https://www.rescue.org/press-release/least-5-dead-26000-households-flooded-people-gaza-face-fourth-winter-tents"
+        },
+        {
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com/news/2026/11/8/floods-in-gaza-leave-tens-of-thousands-without-shelter"
+        }
+      ]
+    },
+    {
+      "id": "hegseth-impeachment-shelved",
+      "section": "World",
+      "region": "United States",
+      "headline": "House votes 211–204 to shelve Hegseth impeachment articles",
+      "dek": "Republican leaders sent Rep. Thomas Massie's eight articles to committee, where they are unlikely to advance.",
+      "what": [
+        "On 10 November the House backed a motion to refer the articles to the Judiciary Committee, 211–204. Massie was the only Republican to oppose the referral.",
+        "Massie's eight articles allege War Powers violations over Iran, breaches of civilian-casualty laws and extrajudicial killings in drug-boat strikes, among others.",
+        "Hegseth called the charges policy disagreements and a political spectacle. Trump backed him, saying the Iran war was needed to stop Tehran getting a nuclear weapon."
+      ],
+      "background": [
+        "Referral to committee does not permanently rule out impeachment, but the committee need not act. The House has impeached only two cabinet secretaries, in 1876 and 2024, and the Senate convicted neither."
+      ],
+      "why": "House Republicans blocked a vote on impeaching the Pentagon chief days after midterm losses that AP links to anger over the Iran war.",
+      "say": "The House sent the Hegseth impeachment articles to committee 211–204, which effectively parks them for now.",
+      "terms": [
+        {
+          "term": "Impeachment",
+          "def": "The House formally charges an official with serious misconduct; the Senate then tries them, and removal needs two-thirds."
+        },
+        {
+          "term": "War Powers Resolution",
+          "def": "A 1973 law limiting a president's power to commit US forces to hostilities without Congress's approval."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Breaking Defense",
+          "url": "https://breakingdefense.com/2026/11/house-opts-to-stall-hegseth-impeachment-vote-sending-resolution-to-judiciary-committee/"
+        },
+        {
+          "name": "Deseret News",
+          "url": "https://www.deseret.com/politics/2026/11/10/house-votes-to-impeach-pete-hegseth/"
+        },
+        {
+          "name": "ITV News (AP)",
+          "url": "https://www.itv.com/news/2026-11-09/trump-says-he-believes-war-with-iran-is-militarily-effectively-over"
+        }
+      ]
+    },
+    {
+      "id": "yemen-sanaa-airstrikes",
+      "section": "World",
+      "region": "Middle East",
+      "headline": "Airstrikes on a village near Sanaa kill dozens, Houthi officials say",
+      "dek": "The Houthis blame Saudi Arabia; AP could not verify who carried out the strikes.",
+      "what": [
+        "Houthi officials said airstrikes hit homes in al-Shariya, near Sanaa, on 7 November, killing at least 22, mostly women and children, AP reported.",
+        "Houthi officials later raised the toll to at least 44, SCMP reports. Saudi Arabia's information ministry did not immediately respond to AP.",
+        "A day earlier, an airstrike on a market in southern Yemen killed at least 30 people, Houthi officials said. The Houthis and Saudi-backed forces blame each other."
+      ],
+      "background": [
+        "A years-long truce collapsed this summer. In September the Iran-backed Houthis seized much of the Red Sea coast and islands in the Bab el-Mandeb Strait, and have stepped up attacks on Saudi oil sites and shipping."
+      ],
+      "why": "The Bab el-Mandeb Strait is a key route for ships between Asia and Europe. A wider Saudi–Houthi war adds risk to oil and shipping.",
+      "say": "Houthis say airstrikes near Sanaa killed dozens and blame Saudi Arabia. That claim is unverified.",
+      "terms": [
+        {
+          "term": "Houthis",
+          "def": "Iran-backed rebel movement that holds Sanaa and much of northern Yemen."
+        },
+        {
+          "term": "Bab el-Mandeb",
+          "def": "Narrow strait between Yemen and Djibouti linking the Red Sea to the Gulf of Aden."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Daily Sabah (AP)",
+          "url": "https://www.dailysabah.com/world/mid-east/yemen-airstrikes-kill-22-wound-30-near-houthi-controlled-capital/amp"
+        },
+        {
+          "name": "South China Morning Post",
+          "url": "https://scmp.com/news/world/middle-east/article/3373850/houthi-rebels-say-least-44-people-killed-air-strike-near-yemeni-capital"
+        }
+      ]
+    },
+    {
+      "id": "sudan-haroun-detained",
+      "section": "World",
+      "region": "Africa",
+      "headline": "Sudan's army detains ICC-wanted ex-ruling party chief Ahmed Haroun",
+      "dek": "No reason has been given; his party says he was held for speaking out.",
+      "what": [
+        "Defence lawyers told AP the military detained him on Sunday 8 November in Omdurman. Two party officials confirmed the arrest to Reuters.",
+        "The army has given no reason. Lawyers linked it to a podcast where he said his party and the army are united against the RSF.",
+        "His party demanded his release, saying he was held for voicing an opinion. A lawyers' group urged the army to hand him to the ICC instead."
+      ],
+      "background": [
+        "Haroun, a senior security official under ex-president Omar al-Bashir, is wanted by the ICC for crimes against humanity and war crimes in Darfur, which he denies. He walked out of prison in April 2024 when it was attacked."
+      ],
+      "why": "Whether Sudan's army hands ICC suspects to the court matters for Darfur's victims. The UN calls the war the world's biggest humanitarian crisis.",
+      "say": "Sudan's army has detained an ICC-wanted ex-ruling party chief, but has not said why.",
+      "terms": [
+        {
+          "term": "ICC",
+          "def": "International Criminal Court in The Hague, which tries individuals for genocide, war crimes and crimes against humanity."
+        },
+        {
+          "term": "RSF",
+          "def": "Rapid Support Forces, the paramilitary group fighting Sudan's army since April 2023."
+        }
+      ],
+      "sources": [
+        {
+          "name": "AP (via NY1)",
+          "url": "https://ny1.com/nyc/all-boroughs/ap-top-news/2026/11/08/sudans-military-again-detains-international-criminal-court-fugitive-haroun-lawyers-say"
         },
         {
           "name": "Reuters (via Al-Monitor)",
-          "url": "https://www.al-monitor.com/originals/2026/11/russia-and-ukraine-say-some-progress-made-talks-us-cites-lack-trust"
+          "url": "https://www.al-monitor.com/originals/2026/11/sudan-detains-ex-ruling-party-head-haroun-wanted-icc"
         }
       ]
     },
     {
-      "id": "israel-eisenkot-no-war",
-      "section": "World",
-      "region": "Middle East",
-      "headline": "Israel's Eisenkot warns Netanyahu against new war while he builds a coalition",
-      "dek": "The former army chief says Israel should not return to war in the coming weeks.",
-      "what": [
-        "Eisenkot says Israel should not resume fighting soon unless it faces an immediate threat. He says he has asked for operational updates and been refused.",
-        "Israeli media report the security cabinet has ordered preparations for a possible attack on Iran. Netanyahu's office says decisions are made solely for security reasons.",
-        "The Knesset convened on 10 November, and Eisenkot's allies agreed a first deal on parliamentary posts. A full coalition deal is expected to be harder."
-      ],
-      "background": [
-        "Israel voted on 27 October. Eisenkot's alliance won 48 seats and Netanyahu's bloc 53. Neither has the 61 needed, and Eisenkot rules out a government with Arab-led parties."
-      ],
-      "why": "Whoever governs will decide Israel's next steps on Gaza and Iran, as the US and Iran trade threats.",
-      "say": "Eisenkot has the mandate to replace Netanyahu and is already warning him not to start a war.",
-      "terms": [
-        {
-          "term": "Knesset",
-          "def": "Israel's parliament, which has 120 seats. A coalition needs 61."
-        }
-      ],
-      "sources": [
-        {
-          "name": "The National",
-          "url": "https://www.thenationalnews.com/news/mena/2026/11/11/eisenkot-says-israel-should-not-return-to-war-for-now/"
-        },
-        {
-          "name": "Al Jazeera (8 Nov)",
-          "url": "https://www.aljazeera.com/amp/news/2026/11/8/israels-president-tasks-eisenkot-to-form-new-coalition-government"
-        },
-        {
-          "name": "Al Jazeera (13 Nov)",
-          "url": "https://aljazeera.com/news/2026/11/13/iran-says-it-struck-us-radar-site-in-bahrain"
-        }
-      ]
-    },
-    {
-      "id": "mississippi-senate-colom",
-      "section": "World",
-      "region": "United States",
-      "headline": "Democrat Scott Colom narrowly flips Republican-held Mississippi Senate seat",
-      "dek": "He is the state's first Black senator since Reconstruction, after more than a week of counting.",
-      "what": [
-        "Colom beat Republican incumbent Cindy Hyde-Smith by 4,669 votes, according to Fox. The result was called on 11 November.",
-        "Early counts had the two just 65 votes apart. Mississippi has no runoff, so the top vote-getter wins.",
-        "No Democrat has represented Mississippi in the Senate since 1989."
-      ],
-      "background": [
-        "The 3 November midterms were projected to hand Democrats control of Congress. Axios called Colom's win a stunning upset."
-      ],
-      "why": "Every Senate seat counts towards the majority that passes laws and confirms Trump's appointees.",
-      "say": "Mississippi just elected its first Democratic senator since 1989, and its first Black senator since Reconstruction.",
-      "terms": [
-        {
-          "term": "Reconstruction",
-          "def": "The years after the US Civil War when the South was rebuilt and Black men first held office."
-        }
-      ],
-      "sources": [
-        {
-          "name": "Fox 10 Phoenix (LiveNOW)",
-          "url": "https://www.fox10phoenix.com/news/scott-colom-wins-senate-mississippi"
-        },
-        {
-          "name": "Axios",
-          "url": "https://www.axios.com/2026/11/11/mississippi-ms-senate-scott-colom-cindy-hyde-smith"
-        },
-        {
-          "name": "WRDW (Gray News)",
-          "url": "https://www.wrdw.com/2026/11/11/mississippi-elects-democrat-scott-colom-states-first-black-us-senator-since-reconstruction/"
-        },
-        {
-          "name": "12 On Your Side",
-          "url": "https://www.12onyourside.com/2026/11/04/colom-hyde-smith-separated-by-narrow-margin-mississippi-senate-race/"
-        }
-      ]
-    },
-    {
-      "id": "nvidia-chip-bills",
+      "id": "nvidia-board-probe",
       "section": "Tech & Business",
       "region": "United States",
-      "headline": "Nvidia scandal pushes Congress toward tighter limits on chips to China",
-      "dek": "Three export bills may ride on the US defence bill as Nvidia searches for a new CEO.",
+      "headline": "Nvidia board hires ex-prosecutor to investigate CEO Jensen Huang",
+      "dek": "Huang admitted a relationship with a former Megaspeed executive suspected of spying for China. He remains CEO.",
       "what": [
-        "Three bills tightening China's access to AI chips may be added to the 2027 defence bill, Reuters reports.",
-        "They would give Congress a say over chip exports, make firms track chips to stop smuggling, and push allies to restrict chipmaking equipment.",
-        "A former congressional staffer says Nvidia is the biggest opponent of two of them. Nvidia declined to comment. It reports earnings on 17 November."
+        "Independent directors hired Joon Kim, a former acting US Attorney in New York, and law firm Wachtell Lipton to lead the probe, announced 10 November.",
+        "The board opened the inquiry on 8 November and backed Huang. Nvidia says it sees no sign national security or its secrets were compromised.",
+        "Shares closed down about 4% on 9 November, which Fortune says wiped roughly $190bn off its value. Nvidia reports quarterly results on 17 November."
       ],
       "background": [
-        "Jensen Huang quit as Nvidia CEO on 12 November after a board probe into his relationship with a woman US intelligence reportedly suspects of working for Beijing. China denies it. CFO Colette Kress is interim CEO."
+        "US officials have reportedly concluded the executive, from Singapore-based chip buyer Megaspeed, was recruited by Chinese intelligence; China rejects this. The NYT reports Megaspeed is suspected of helping smuggle restricted chips into China."
       ],
-      "why": "Nvidia makes most of the world's AI chips. Tighter US rules would shape who can build advanced AI, and how fast.",
-      "say": "Nvidia's scandal has given lawmakers a fresh reason to tighten the chip controls they were already pushing.",
+      "why": "Nvidia chips underpin much of today's AI. Senators Warren and Banks jointly called for tighter AI chip export limits.",
+      "say": "Nvidia has hired a former federal prosecutor to probe its CEO, days before it reports earnings on Tuesday.",
       "terms": [
         {
-          "term": "NDAA",
-          "def": "The annual US defence spending law, often used to carry other national-security measures."
+          "term": "Megaspeed",
+          "def": "Singapore-based buyer of Nvidia chips, suspected by US officials of helping route restricted chips to China."
         }
       ],
       "sources": [
         {
-          "name": "Reuters (via Deccan Chronicle)",
-          "url": "https://www.deccanchronicle.com/amp/technology/nvidia-spy-allegations-likely-to-spur-laws-to-tighten-chinas-access-to-ai-chips-2003159"
+          "name": "The Next Web",
+          "url": "https://thenextweb.com/news/nvidia-board-jensen-huang-inquiry-directors-succession"
         },
         {
-          "name": "Nvidia",
-          "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition"
-        },
-        {
-          "name": "Fox Business",
-          "url": "https://www.foxbusiness.com/business-leaders/nvidia-ceo-jensen-huang-resigns-amid-investigation-relationship-alleged-chinese-spy"
+          "name": "Fortune",
+          "url": "https://fortune.com/2026/11/11/nvidia-board-directors-jensen-huang-captive-board/"
         }
       ]
     }
   ],
   "briefs": [
     {
-      "text": "Asked about military action against Cuba on Thursday, Trump said he would like to be able to do it, per Drop Site News citing NBC. No plan has been reported.",
+      "text": "Greenland's parliament approved a security deal with the US and Denmark on 3 November, after months of pressure from President Trump.",
       "source": {
-        "name": "Drop Site News",
-        "url": "https://www.dropsitenews.com/p/iran-hits-us-radar-in-bahrain-van"
+        "name": "ITV News",
+        "url": "https://www.itv.com/news/2026-11-03/greenland-lawmakers-back-security-pact-with-us-denmark-following-trumps-pressure"
       }
     },
     {
-      "text": "Japan's PM Takaichi will attend APEC in Shenzhen on 18–19 November, but a formal meeting with Xi looks unlikely, Bloomberg reports. Ties are among their lowest since 1972.",
+      "text": "The 49th ASEAN Summit and related meetings are scheduled in Manila from 15 to 17 November, Xinhua reports.",
       "source": {
-        "name": "The Star (Bloomberg)",
-        "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/11/09/japan-works-to-shield-takaichi-from-any-xi-snub-at-china039s-apec-summit"
-      }
-    },
-    {
-      "text": "Sudan's army and allied forces say they have captured Al-Khuwai and Serif Ankoush in West Kordofan from the RSF. Not independently confirmed.",
-      "source": {
-        "name": "WarHistory (citing Sudan Tribune)",
-        "url": "https://warhistory.org/maps/sudan/2026-11"
+        "name": "Nhan Dan (Xinhua)",
+        "url": "https://en.nhandan.vn/world-news-in-brief-november-14-post169136.html"
       }
     }
   ]

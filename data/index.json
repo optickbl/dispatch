@@ -1,6 +1,12 @@
 {
   "editions": [
     {
+      "date": "2026-11-15",
+      "summary": "Zelenskyy says the US floated Donbas for NATO membership, Gaza's first winter storm floods tens of thousands of tents, and Nvidia's board hires a prosecutor to probe its CEO.",
+      "stories": 6,
+      "lead": "Zelenskyy says US floated Ukraine leaving Donbas in exchange for NATO membership"
+    },
+    {
       "date": "2026-11-14",
       "summary": "A first-ever Trump–Xi–Putin summit is planned for next week, Iran claims a strike on a US radar in Bahrain, and Russia and Ukraine agree a prisoner swap.",
       "stories": 6,
